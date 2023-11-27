@@ -1,0 +1,15 @@
+Type Test Cheat
++ Use OpenCV to get the user's screen.
++ Break it up into some region where there is text to be parsed.
+ - Maybe GUI to allow for customization of text location.
+     (e.g. snipping tool or similar selection tool? top left, bottom right, output region)
+ - Otherwise, hardcoded values
++ Parse the text with tesseract-ocr
++ Write text to website / application
+ - Find out some way to write the characters to application simulating human typing.
+    (cause I don't think I can just write out full strings)
+
+ASL Translator
++ Get user hand symbols and gestures using OpenCV
++ Make some sort of neural net to figure out what it means in english
+ - No idea how to do any of this so idk...
