@@ -13,3 +13,10 @@ ASL Translator
 + Get user hand symbols and gestures using OpenCV
 + Make some sort of neural net to figure out what it means in english
  - No idea how to do any of this so idk...
+
+
+
+New idea:
+Beginnings of ASL / hand gesture reader.
++ Find how many fingers someone if holding up.
++ OpenCV
