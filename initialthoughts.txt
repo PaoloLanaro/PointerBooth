@@ -19,4 +19,5 @@ ASL Translator
 New idea:
 Beginnings of ASL / hand gesture reader.
 + Find how many fingers someone if holding up.
+ - 1-5 fingers "up" detection
 + OpenCV

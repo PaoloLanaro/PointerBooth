@@ -8,13 +8,12 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 find_package( OpenCV REQUIRED )
 include_directories( ${Open_CV_INCLUDE_DIRS} )
 
-
+file(COPY test_images/ DESTINATION ./test_images)
 
 # include lib/src/.cpp files here
 # add_library(project5 todo
 #         lib/src/name.cpp todo
 # ) todo
-# target_include_directories(project5 PRIVATE lib/include lib/tesseract) todo
 
 
 add_executable(${CMAKE_PROJECT_NAME} driver.cpp
