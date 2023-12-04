@@ -10,20 +10,26 @@
 #include <opencv2/core/mat.hpp>
 #include <opencv2/core.hpp>
 #include <random>
+#include <iostream>
+
+typedef cv::Point3_<uint8_t> Pixel;
 
 class ScrambleFilter : public Filter {
 public:
     virtual void Edit(cv::Mat* frame) {
-        for (int col = 0; col < frame->cols; ++col) {
+        std::random_device rd;
+        std::mt19937 g(rd());
+        for (int col = 0; col < frame->rows; ++col) {
             //Get the column as a separate matrix
-            cv::Mat column = frame->col(col);
+            cv::Mat column = frame->row(col);
 
             //Reshape the column into a 1D matrix (vector)
             cv::Mat reshaped = column.reshape(1, column.total());
+            //std::cout << column << std::endl;
 
             //Scramble the column with std algorithms
-            std::random_device rd;
-            //std::shuffle(reshaped.begin<Pixel>(), reshaped.end<Pixel>(), rd);
+            //TODO: we need to preserve grouping of RGB
+            std::shuffle(reshaped.begin<uint8_t>(), reshaped.end<uint8_t>(), g);
         }
     }
 };

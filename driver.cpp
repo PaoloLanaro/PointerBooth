@@ -59,8 +59,8 @@ int videoCapture() {
         ScrambleFilter sf;
 
 //        gf.Edit(&frame);
-//        psf.Edit(&frame);
-        sf.Edit(&frame);
+        psf.Edit(&frame);
+//        sf.Edit(&frame);
 
 
 
