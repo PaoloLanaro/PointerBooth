@@ -21,6 +21,7 @@ add_executable(${CMAKE_PROJECT_NAME} driver.cpp
         lib/include/PixelSortFilter.h
         lib/include/Filter.cpp
         lib/include/Filter.h
+        lib/include/ScrambleFilter.h
         # lib/include/name.h todo
 )
 

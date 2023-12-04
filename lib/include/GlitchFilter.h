@@ -7,10 +7,11 @@
 
 #include <opencv2/core/types.hpp>
 #include <chrono>
+#include "Filter.h"
 
 typedef cv::Point3_<uint8_t> Pixel;
 
-class GlitchFilter {
+class GlitchFilter : public Filter {
 public:
     void operator() (Pixel& pixel, const int* position) const {
         int choice = rand() % 3;
@@ -28,5 +29,9 @@ public:
                 break;
         }
     }
+
+    virtual void Edit(cv::Mat* frame) {
+        frame->forEach<Pixel>(GlitchFilter());
+    };
 };
 #endif //FINALPROJECT_GLITCHFILTER_H
