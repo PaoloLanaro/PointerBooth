@@ -10,6 +10,7 @@ using std::cout, std::endl;
 #include <opencv2\imgcodecs.hpp>
 #include "opencv2/videoio.hpp"
 #include "PixelSortFilter.h"
+#include "ScrambleFilter.h"
 #include <opencv2/highgui.hpp>
 #include <GlitchFilter.h>
 #include <opencv2/video.hpp>
@@ -55,8 +56,11 @@ int videoCapture() {
 
         GlitchFilter gf;
         PixelSortFilter psf;
-        gf.Edit(&frame);
-        psf.Edit(&frame);
+        ScrambleFilter sf;
+
+//        gf.Edit(&frame);
+//        psf.Edit(&frame);
+        sf.Edit(&frame);
 
 
 
