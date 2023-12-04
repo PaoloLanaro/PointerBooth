@@ -17,7 +17,11 @@ file(COPY test_images/ DESTINATION ./test_images)
 
 
 add_executable(${CMAKE_PROJECT_NAME} driver.cpp
-# lib/include/name.h todo
+        lib/include/GlitchFilter.h
+        lib/include/PixelSortFilter.h
+        lib/include/Filter.cpp
+        lib/include/Filter.h
+        # lib/include/name.h todo
 )
 
 set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)

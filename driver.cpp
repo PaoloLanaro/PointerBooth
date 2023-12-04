@@ -10,16 +10,19 @@ using std::cout, std::endl;
 #include <opencv2\imgcodecs.hpp>
 #include "opencv2/videoio.hpp"
 #include <opencv2/highgui.hpp>
+#include <GlitchFilter.h>
 #include <opencv2/video.hpp>
+
+typedef cv::Point3_<uint8_t> Pixel;
 
 int videoCapture();
 
 void imageTest();
 
 int main() {
-//    return videoCapture();
+    return videoCapture();
 
-    imageTest();
+//    imageTest();
 
     return 0;
 }
@@ -44,6 +47,22 @@ int videoCapture() {
 
     while(true) {
         videoCam >> frame;
+
+        //some sort of polymorphism for filters here
+        //they can be stacked too-- maybe some sort of command for them
+        //example usage frame.forEach<Pixel>(GlitchFilter());
+
+        for (int col = 0; col < frame.cols; ++col) {
+            // Get the column as a separate matrix
+            cv::Mat column = frame.col(col);
+
+            // Reshape the column into a 1D matrix (vector)
+            cv::Mat reshaped = column.reshape(1, column.total());
+
+            // Sort the elements in the column
+            cv::sort(reshaped, reshaped, cv::SORT_EVERY_COLUMN);
+
+        }
 
         frameOut = frame.clone();
 
