@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 project(FinalProject)
 
 set(CMAKE_CXX_STANDARD 17)
-set(ENV{OPENCV_DIR} "C:\\opencv\\opencv\\build")
+set(ENV{OPENCV_DIR} "C:\\tools\\opencv\\build")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
 find_package( OpenCV REQUIRED )
