@@ -15,7 +15,7 @@ typedef cv::Point3_<uint8_t> Pixel;
 
 class PixelSortFilter : public Filter {
 public:
-    virtual void Edit(cv::Mat* frame) {
+    virtual void edit(cv::Mat* frame) {
         for (int col = 0; col < frame->cols; ++col) {
             //Get the column as a separate matrix
             cv::Mat column = frame->col(col);

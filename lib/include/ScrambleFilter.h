@@ -16,7 +16,7 @@ typedef cv::Point3_<uint8_t> Pixel;
 
 class ScrambleFilter : public Filter {
 public:
-    virtual void Edit(cv::Mat* frame) {
+    virtual void edit(cv::Mat* frame) {
         std::random_device rd;
         std::mt19937 g(rd());
         for (int col = 0; col < frame->rows; ++col) {

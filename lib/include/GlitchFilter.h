@@ -30,7 +30,7 @@ public:
         }
     }
 
-    virtual void Edit(cv::Mat* frame) {
+    virtual void edit(cv::Mat* frame) {
         frame->forEach<Pixel>(GlitchFilter());
     };
 };

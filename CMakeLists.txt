@@ -19,9 +19,11 @@ file(COPY test_images/ DESTINATION ./test_images)
 add_executable(${CMAKE_PROJECT_NAME} driver.cpp
         lib/include/GlitchFilter.h
         lib/include/PixelSortFilter.h
-        lib/include/Filter.cpp
+        lib/src/Filter.cpp
         lib/include/Filter.h
         lib/include/ScrambleFilter.h
+        lib/include/GrayScaleFilter.h
+        lib/src/GrayScaleFilter.cpp
         # lib/include/name.h todo
 )
 
