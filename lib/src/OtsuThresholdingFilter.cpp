@@ -2,7 +2,7 @@
 // Created by lanar on 12/6/2023.
 //
 #include <opencv2/imgproc.hpp>
-#include "OtsuThresholdingFilter.h"
+#include "filters/OtsuThresholdingFilter.h"
 
 void OtsuThresholdingFilter::edit(cv::Mat &frame) {
     double thresh = 100;

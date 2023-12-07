@@ -168,5 +168,5 @@ C:/tools/opencv/build/include/opencv2/core.hpp
 C:/tools/opencv/build/include/opencv2/core/ovx.hpp
 C:/tools/opencv/build/include/opencv2/./imgproc/segmentation.hpp
 C:/tools/opencv/build/include/opencv2/imgproc.hpp
-C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/OtsuThresholdingFilter.h
-C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/MatrixFilter.h
+C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/filters/OtsuThresholdingFilter.h
+C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Filter.h

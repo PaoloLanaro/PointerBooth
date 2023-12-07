@@ -1,7 +1,7 @@
 //
 // Created by lanar on 12/6/2023.
 //
-#include "ContourFilter.h"
+#include "filters/ContourFilter.h"
 #include<opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 

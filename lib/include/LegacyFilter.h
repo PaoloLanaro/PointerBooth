@@ -1,8 +1,0 @@
-//
-// Created by dbusn on 12/7/2023.
-//
-
-#ifndef FINALPROJECT_LEGACYFILTER_H
-#define FINALPROJECT_LEGACYFILTER_H
-
-#endif //FINALPROJECT_LEGACYFILTER_H

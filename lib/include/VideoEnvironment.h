@@ -6,12 +6,13 @@
 #define FINALPROJECT_VIDEOENVIRONMENT_H
 
 
-#include "MatrixFilter.h"
+#include "Filter.h"
 
 class VideoEnvironment {
 private:
+    void applyFilters(cv::Mat&, std::vector<std::string>);
 public:
-    void startVideo(std::vector<MatrixFilter*>);
+    void startVideo(const std::vector<std::string>&);
     void startExamples();
 };
 

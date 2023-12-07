@@ -5,18 +5,19 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
 #include "VideoEnvironment.h"
-#include "GrayScaleFilter.h"
-#include "SimpleBlurFilter.h"
-#include "GaussianBlurFilter.h"
-#include "OtsuThresholdingFilter.h"
-#include "GlitchFilter.h"
-#include "PixelSortFilter.h"
+#include "filters/GrayScaleFilter.h"
+#include "filters/SimpleBlurFilter.h"
+#include "filters/GaussianBlurFilter.h"
+#include "filters/OtsuThresholdingFilter.h"
+#include "filters/GlitchFilter.h"
+#include "filters/PixelSortFilter.h"
 #include "MatAdapter.h"
 #include "Image.h"
 #include "Editor.h"
-#include "ContourFilter.h"
+#include "filters/ContourFilter.h"
+#include "filters/PointillismFilter.h"
 
-void VideoEnvironment::startVideo(std::vector<MatrixFilter*> filters) {
+void VideoEnvironment::startVideo(const std::vector<std::string>& filters) {
     cv::VideoCapture videoCam(0);
     videoCam.set(cv::CAP_PROP_SETTINGS, 1);
 
@@ -29,6 +30,7 @@ void VideoEnvironment::startVideo(std::vector<MatrixFilter*> filters) {
 
     while(true) {
         videoCam >> currFrame;
+        this->applyFilters(currFrame, filters);
 
         cv::imshow("Video", currFrame);
         int key = cv::waitKey(1);
@@ -105,11 +107,50 @@ void VideoEnvironment::startExamples() {
         cv::imshow("Pointillism", updatedFrame);
 
 
-        cv::imshow("No MatrixFilter", currFrame);
+        cv::imshow("No Filter", currFrame);
 
         int key = cv::waitKey(1);
         if (key == 27) {        // esc key
             break;
         }
+    }
+}
+
+
+
+std::string convertToLower(std::string input) {
+    std::string output = "";
+    for (char i : input) {
+        output += tolower(i);
+    }
+    return output;
+}
+
+void VideoEnvironment::applyFilters(cv::Mat& frame, std::vector<std::string> filtersList) {
+    for (std::string requestName : filtersList) {
+        requestName = convertToLower(requestName);
+        Filter* editWith = nullptr;
+        if (requestName == "contour")
+            editWith = new ContourFilter (frame);
+        else if (requestName == "pointillism")
+            editWith = new PointillismFilter();
+        else if (requestName == "gaussianblur")
+            editWith = new GaussianBlurFilter();
+        else if (requestName == "glitch")
+            editWith = new GlitchFilter();
+        else if (requestName == "otsu")
+            editWith = new OtsuThresholdingFilter();
+        else if (requestName == "pixelsort")
+            editWith = new PixelSortFilter();
+        else if (requestName == "simpleblur")
+            editWith = new SimpleBlurFilter();
+        else if (requestName == "greyscale" || requestName == "grayscale")
+            editWith = new GrayScaleFilter();
+        else
+            continue;
+
+        editWith->edit(frame);
+        delete editWith;    //not sure if this is necessary but this would be the dumbest memory leak ever LOL
+
     }
 }

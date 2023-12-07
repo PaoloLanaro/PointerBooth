@@ -157,46 +157,43 @@
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/driver.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/ContourFilter.h">
-			<Option target="FinalProject"/>
-		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Editor.h">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Filter.h">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/GaussianBlurFilter.h">
-			<Option target="FinalProject"/>
-		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/GlitchFilter.h">
-			<Option target="FinalProject"/>
-		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/GrayScaleFilter.h">
-			<Option target="FinalProject"/>
-		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Image.h">
-			<Option target="FinalProject"/>
-		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/LegacyFilter.h">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/MatAdapter.h">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/MatrixFilter.h">
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/PointerBoothWindow.h">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/OtsuThresholdingFilter.h">
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/filters/ContourFilter.h">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/PixelSortFilter.h">
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/filters/GaussianBlurFilter.h">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/SimpleBlurFilter.h">
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/filters/GlitchFilter.h">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/VideoEnvironment.h">
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/filters/GrayScaleFilter.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/filters/OtsuThresholdingFilter.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/filters/PixelSortFilter.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/filters/PointillismFilter.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/filters/SimpleBlurFilter.h">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/ContourFilter.cpp">
@@ -217,14 +214,14 @@
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/MatAdapter.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/MatrixFilter.cpp">
-			<Option target="FinalProject"/>
-		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/OtsuThresholdingFilter.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/Pixel.cpp">
 			<Option target="imgLib"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/PointerBoothWindow.cpp">
+			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/SimpleBlurFilter.cpp">
 			<Option target="FinalProject"/>

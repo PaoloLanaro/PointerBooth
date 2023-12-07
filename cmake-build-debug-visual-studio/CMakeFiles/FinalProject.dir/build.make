@@ -78,30 +78,10 @@ CMakeFiles\FinalProject.dir\driver.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FinalProject.dir\driver.cpp.s /c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\driver.cpp
 <<
 
-CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
-CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatrixFilter.cpp
-CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/MatrixFilter.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatrixFilter.cpp
-<<
-
-CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/lib/src/MatrixFilter.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe > CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatrixFilter.cpp
-<<
-
-CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/lib/src/MatrixFilter.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.s /c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatrixFilter.cpp
-<<
-
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\GrayScaleFilter.cpp
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/GrayScaleFilter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/GrayScaleFilter.cpp.obj"
 	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\GrayScaleFilter.cpp
 <<
@@ -121,7 +101,7 @@ CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.s: cmake_force
 CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
 CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\GaussianBlurFilter.cpp
 CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/GaussianBlurFilter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/GaussianBlurFilter.cpp.obj"
 	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\GaussianBlurFilter.cpp
 <<
@@ -141,7 +121,7 @@ CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.s: cmake_force
 CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
 CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\SimpleBlurFilter.cpp
 CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/SimpleBlurFilter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/SimpleBlurFilter.cpp.obj"
 	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\SimpleBlurFilter.cpp
 <<
@@ -161,7 +141,7 @@ CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.s: cmake_force
 CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
 CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\OtsuThresholdingFilter.cpp
 CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/OtsuThresholdingFilter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/OtsuThresholdingFilter.cpp.obj"
 	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\OtsuThresholdingFilter.cpp
 <<
@@ -181,7 +161,7 @@ CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.s: cmake_force
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\ContourFilter.cpp
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/ContourFilter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/ContourFilter.cpp.obj"
 	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\ContourFilter.cpp
 <<
@@ -201,7 +181,7 @@ CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.s: cmake_force
 CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
 CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatAdapter.cpp
 CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/MatAdapter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/MatAdapter.cpp.obj"
 	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatAdapter.cpp
 <<
@@ -221,7 +201,7 @@ CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.s: cmake_force
 CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
 CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Image.cpp
 CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/Image.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/Image.cpp.obj"
 	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Image.cpp
 <<
@@ -241,7 +221,7 @@ CMakeFiles\FinalProject.dir\lib\src\Image.cpp.s: cmake_force
 CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
 CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Editor.cpp
 CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/Editor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/Editor.cpp.obj"
 	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Editor.cpp
 <<
@@ -256,6 +236,26 @@ CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/lib/src/Editor.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FinalProject.dir\lib\src\Editor.cpp.s /c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Editor.cpp
+<<
+
+CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
+CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\PointerBoothWindow.cpp
+CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/PointerBoothWindow.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\PointerBoothWindow.cpp
+<<
+
+CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/lib/src/PointerBoothWindow.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe > CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\PointerBoothWindow.cpp
+<<
+
+CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/lib/src/PointerBoothWindow.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.s /c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\PointerBoothWindow.cpp
 <<
 
 CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
@@ -281,7 +281,6 @@ CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.s: cmake_force
 # Object files for target FinalProject
 FinalProject_OBJECTS = \
 "CMakeFiles\FinalProject.dir\driver.cpp.obj" \
-"CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj" \
@@ -290,13 +289,13 @@ FinalProject_OBJECTS = \
 "CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj" \
+"CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj"
 
 # External object files for target FinalProject
 FinalProject_EXTERNAL_OBJECTS =
 
 FinalProject.exe: CMakeFiles\FinalProject.dir\driver.cpp.obj
-FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj
@@ -305,6 +304,7 @@ FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj
+FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\build.make
 FinalProject.exe: C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxmsw32ud_core.lib

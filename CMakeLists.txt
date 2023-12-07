@@ -22,22 +22,19 @@ target_include_directories(imgLib PRIVATE lib/include lib/stb)
 #         lib/src/name.cpp todo
 # ) todo
 
-
-add_executable(${CMAKE_PROJECT_NAME} main.cpp
-        lib/include/GlitchFilter.h
-        lib/include/PixelSortFilter.h
-        lib/src/Filter.cpp
+add_executable(${CMAKE_PROJECT_NAME} driver.cpp
+        lib/include/filters/GlitchFilter.h
+        lib/include/filters/PixelSortFilter.h
         lib/include/Filter.h
-        lib/include/ScrambleFilter.h
-        lib/include/GrayScaleFilter.h
+        lib/include/filters/GrayScaleFilter.h
         lib/src/GrayScaleFilter.cpp
-        lib/include/GaussianBlurFilter.h
-        lib/include/SimpleBlurFilter.h
+        lib/include/filters/GaussianBlurFilter.h
+        lib/include/filters/SimpleBlurFilter.h
         lib/src/GaussianBlurFilter.cpp
         lib/src/SimpleBlurFilter.cpp
-        lib/include/OtsuThresholdingFilter.h
+        lib/include/filters/OtsuThresholdingFilter.h
         lib/src/OtsuThresholdingFilter.cpp
-        lib/include/ContourFilter.h
+        lib/include/filters/ContourFilter.h
         lib/src/ContourFilter.cpp
         lib/include/MatAdapter.h
         lib/src/MatAdapter.cpp
@@ -49,6 +46,11 @@ add_executable(${CMAKE_PROJECT_NAME} main.cpp
         lib/src/Editor.cpp
         lib/include/PointerBoothWindow.h
         lib/src/PointerBoothWindow.cpp
+        driver.cpp
+        lib/include/PointerBoothWindow.h
+        lib/include/Filter.h
+        lib/src/VideoEnvironment.cpp
+        lib/include/filters/PointillismFilter.h
         # lib/include/name.h todo
 )
 
