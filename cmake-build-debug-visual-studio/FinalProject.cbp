@@ -144,9 +144,6 @@
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/MatAdapter.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/MatAdapter.h">
-			<Option target="FinalProject"/>
-		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/OtsuThresholdingFilter.cpp">
 			<Option target="FinalProject"/>
 		</Unit>

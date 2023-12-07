@@ -8,6 +8,7 @@
 #include <opencv2/core/mat.hpp>
 
 class MatAdapter {
+public:
     unsigned char* convertToStbiArray(const cv::Mat& input, int numComponents) const;
 };
 

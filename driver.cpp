@@ -19,6 +19,7 @@ using std::cout, std::endl;
 #include "GaussianBlurFilter.h"
 #include "OtsuThresholdingFilter.h"
 #include "ContourFilter.h"
+#include "MatAdapter.h"
 
 using namespace std;
 using namespace cv;
@@ -30,17 +31,17 @@ int videoCapture();
 void imageTest();
 
 int main() {
-    return videoCapture();
+//    return videoCapture();
 
-//    imageTest();
+    imageTest();
 
     return 0;
 }
 
 void imageTest() {
-    cv::Mat img = cv::imread("./test_images/finger-up.jpg");
-//    img.
-    cv::imshow("finger-up test", img);
+    cv::Mat img = cv::imread("../test_images/finger-up.jpg");
+    MatAdapter test;
+    cv::imgshow("test", img);
 }
 
 int videoCapture() {
