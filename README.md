@@ -1,5 +1,5 @@
 # [Pointer Booth](https://github.com/PaoloLanaro/PointerBooth)
-by [David Busnel](https://github.com/dbusnel) and [Paolo Lanaro](https://github.com/paololanaro) ![app-logo](https://i.ibb.co/GQzSQXv/Pointer-Booth-Logo.png)
+![app-logo](https://i.ibb.co/GQzSQXv/Pointer-Booth-Logo.png) by [David Busnel](https://github.com/dbusnel) and [Paolo Lanaro](https://github.com/paololanaro) 
 
 A [Photo booth](https://en.wikipedia.org/wiki/Photo_Booth) style application made in C++.
 It is capable of displaying multiple filters through a live camera feed and
