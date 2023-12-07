@@ -38,3 +38,43 @@ unsigned char* MatAdapter::convertToStbiArray(const cv::Mat& input, int numCompo
     }
     return outputPixels;
 }
+
+cv::Vec3b getVecFromNextVals(const unsigned char *imgData) {
+    auto first = imgData[0];
+    auto second = imgData[1];
+    auto third = imgData[3];
+    cv::Vec3b output(first, second, third);
+    return output;
+}
+
+/**
+ * Note that OpenCV containers have automatic memory management.
+ * Converts a provided array of characters into OpenCV matrix data.
+ *
+ * @param imgData data to convert
+ * @param numComponents number of pixel components
+ * @param imgWidthPixels width in pixels
+ * @param imgHeightPixels height in pixels
+ * @return
+ */
+cv::Mat MatAdapter::convertToMatrix(unsigned char *imgData, int numComponents, int imgWidthPixels, int imgHeightPixels) {
+    cv::Mat output;
+    if (numComponents == 3) {
+        output = cv::Mat(imgHeightPixels, imgWidthPixels, CV_8U); // 8U represents single unsigned integer
+    } else {
+        output = cv::Mat(imgHeightPixels, imgWidthPixels, CV_8UC3); // 8U represents 3 channel integers
+    }
+
+    for (int curRow = 0; curRow < imgHeightPixels; curRow++) {
+        for (int curCol = 0; curCol < imgWidthPixels - (numComponents - 1); curCol++) { //go to the start of the last grouping
+            int curIndex = curRow * imgWidthPixels + curCol;
+            if (numComponents == 3) {
+                output.at<cv::Vec3b>(curRow / 3, curCol) = getVecFromNextVals(imgData + curIndex);
+                curCol += 2;
+            } else {
+                output.at<uchar>(curRow, curCol) = imgData[curIndex];
+            }
+        }
+    }
+    return output;
+}
