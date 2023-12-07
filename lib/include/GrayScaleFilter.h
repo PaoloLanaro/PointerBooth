@@ -8,7 +8,9 @@
 #include "Filter.h"
 
 class GrayScaleFilter : public Filter {
-    virtual void edit(cv::Mat* frame) override;
+public:
+    // should only ever be run with a cloned frame. This WILL mutate the param Matrix!!
+    virtual void edit(cv::Mat &frame) override;
 };
 
 #endif //FINALPROJECT_GRAYSCALEFILTER_H

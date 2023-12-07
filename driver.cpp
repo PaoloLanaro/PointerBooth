@@ -14,6 +14,11 @@ using std::cout, std::endl;
 #include <opencv2/highgui.hpp>
 #include <GlitchFilter.h>
 #include <opencv2/video.hpp>
+#include "GrayScaleFilter.h"
+#include "SimpleBlurFilter.h"
+#include "GaussianBlurFilter.h"
+#include "OtsuThresholdingFilter.h"
+#include "ContourFilter.h"
 
 using namespace std;
 using namespace cv;
@@ -48,30 +53,38 @@ int videoCapture() {
         return -1;
     }
 
-    cv::Mat currFrame, frameClone, frameClone2;
+    cv::Mat currFrame;
 
     while(true) {
         videoCam >> currFrame;
-        frameClone = currFrame.clone();
-        frameClone2 = currFrame.clone();
-        cv::imshow("Initial Frame", frameClone); // original image
+        cv::imshow("Initial Frame", currFrame); // original image
 
-        cv::Mat grayFrame, gaussGray;
-        cv::cvtColor(currFrame, grayFrame, cv::COLOR_BGR2GRAY);
-        cv::medianBlur(grayFrame, grayFrame, 5); //5 is a tunable param. must stay odd and pos
+        cv::Mat grayFrame = currFrame.clone();
+        GrayScaleFilter gsf;
+        gsf.edit(grayFrame);
+
         cv::imshow("Gray frame", grayFrame);
 
-        cv::GaussianBlur(grayFrame, gaussGray, cv::Size(5, 5), 0);
-        cv::imshow("Gauss gray", gaussGray);
+        cv::Mat blurredFrame = currFrame.clone();
+        SimpleBlurFilter sbf;
+        sbf.edit(blurredFrame);
 
-        cv::Mat postOtsuThresholding;
-        double thresh = 100;
-        double maxValue = 255;
+        cv::imshow("Simple Blurred Frame", blurredFrame);
 
-//        cv::CascadeClassifier faceCascadeClass;
-//        faceCascadeClass.load("../res/haarcascade_frontalface_alt.xml");
-        cv::threshold(grayFrame, postOtsuThresholding, thresh, maxValue, cv::THRESH_OTSU);
-        cv::imshow("reg otsu binary", postOtsuThresholding);
+        cv::Mat gaussBlurFrame = currFrame.clone();
+        GaussianBlurFilter gbf;
+        gbf.edit(gaussBlurFrame);
+
+        cv::imshow("Gaussian Blurred Frame", gaussBlurFrame);
+
+        // combines gray and simple blur filters
+        cv::Mat grayGaussian = grayFrame.clone();
+        sbf.edit(grayGaussian);
+
+        OtsuThresholdingFilter otf;
+        otf.edit(grayGaussian);
+
+        cv::imshow("simple otsu thresholding (binarization) ", grayGaussian);
 
         //some sort of polymorphism for filters here
         //they can be stacked too-- maybe some sort of command for them
@@ -81,25 +94,15 @@ int videoCapture() {
         PixelSortFilter psf;
         ScrambleFilter sf;
 
-//        gf.edit(&frame);
-//        psf.edit(&frameClone2);
-//        sf.edit(&frame);
+//        gf.edit(&currFrame);
+//        psf.edit(&currFrame);
+//        sf.edit(&currFrame);
 
+        cv::Mat ioFrame = currFrame.clone();
+        ContourFilter cf(ioFrame);
+        cf.edit(grayGaussian);
 
-
-
-//        frameClone2 = currFrame.clone();
-//        cv::Mat adaptiveOutput;
-//        cv::adaptiveThreshold(grayFrame, adaptiveOutput, 150, cv::ADAPTIVE_THRESH_GAUSSIAN_C, cv::THRESH_BINARY, 11, 5); // tunable params
-//        cv::imshow("adaptive gauss binary", adaptiveOutput);
-
-        std::vector<std::vector<cv::Point>> contours;
-        std::vector<cv::Vec4i> hierarchy;
-        findContours(postOtsuThresholding, contours, hierarchy, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_NONE);
-
-        cv::Mat finalFrame = currFrame.clone();
-        drawContours(finalFrame, contours, -1, cv::Scalar(0, 0, 255), 2);
-        cv::imshow("final", finalFrame);
+        cv::imshow("final", ioFrame);
 
         int key = cv::waitKey(1);
         if (key == 27) {        // esc key

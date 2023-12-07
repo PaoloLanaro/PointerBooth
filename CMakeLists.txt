@@ -24,6 +24,14 @@ add_executable(${CMAKE_PROJECT_NAME} driver.cpp
         lib/include/ScrambleFilter.h
         lib/include/GrayScaleFilter.h
         lib/src/GrayScaleFilter.cpp
+        lib/include/GaussianBlurFilter.h
+        lib/include/SimpleBlurFilter.h
+        lib/src/GaussianBlurFilter.cpp
+        lib/src/SimpleBlurFilter.cpp
+        lib/include/OtsuThresholdingFilter.h
+        lib/src/OtsuThresholdingFilter.cpp
+        lib/include/ContourFilter.h
+        lib/src/ContourFilter.cpp
         # lib/include/name.h todo
 )
 
