@@ -3,12 +3,12 @@
 using std::cout, std::endl;
 
 #pragma ide diagnostic ignored "EndlessLoop"
-#include "opencv2/highgui/highgui.hpp"
-#include "opencv2/imgproc/imgproc.hpp"
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/core/utility.hpp>
 #include <opencv2\opencv.hpp>
 #include <opencv2\imgcodecs.hpp>
-#include "opencv2/videoio.hpp"
+#include <opencv2/videoio.hpp>
 #include "PixelSortFilter.h"
 #include "ScrambleFilter.h"
 #include <opencv2/highgui.hpp>
@@ -22,6 +22,11 @@ using std::cout, std::endl;
 #include "MatAdapter.h"
 #include "Image.h"
 
+#include <wx/wxprec.h>
+#ifndef WX_PRECOMP
+#include <wx/wx.h>
+#endif
+
 using namespace std;
 using namespace cv;
 
@@ -30,9 +35,9 @@ int videoCapture();
 void imageTest();
 
 int main() {
-//    return videoCapture();
+    return videoCapture();
 
-    imageTest();
+//    imageTest();
 
     return 0;
 }
@@ -41,6 +46,12 @@ void imageTest() {
     cv::Mat img = cv::imread("../test_images/finger-up.jpg");
     MatAdapter test;
     Image testImg(test.convertToStbiArray(img, 3), 3, img.rows, img.cols / 3);
+    while (true) {
+        int key = cv::waitKey(1);
+        if (key == 27) {        // esc key
+            break;
+        }
+    }
 
 }
 
