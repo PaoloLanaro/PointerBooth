@@ -14,7 +14,7 @@ The user can save different combinations of filters through the JSON file serial
 
 ## Dependencies
 
-This program requires [OpenCV](https://opencv.org/), [JSON for Modern C++](https://github.com/nlohmann/json), and the STBI image library to function.
+This program requires [OpenCV](https://opencv.org/), [JSON for Modern C++](https://github.com/nlohmann/json), and the [STBI image library](https://github.com/nothings/stb) to function.
 
 *OpenCV* is used for its camera capture and video capabilities, *JSON for Modern C++* is used to read and write filter
 configurations, and the STBI library is used for image (and more specifically pixel) manipulation.
