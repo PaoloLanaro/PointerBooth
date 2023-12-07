@@ -1,5 +1,5 @@
 # [Pointer Booth](https://github.com/PaoloLanaro/PointerBooth)
-![app-logo](https://ibb.co/4F0nJb9)
+![app-logo]([https://ibb.co/4F0nJb9](https://i.ibb.co/sgXdtTk/Pointer-Booth-Logo.png))
 by [David Busnel](https://github.com/dbusnel) and [Paolo Lanaro](https://github.com/paololanaro)
 
 A [Photo booth](https://en.wikipedia.org/wiki/Photo_Booth) style application made in C++.
