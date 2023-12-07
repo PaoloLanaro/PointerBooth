@@ -17,8 +17,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/FinalProject.dir/lib/src/MatAdapter.cpp.obj.d"
   "CMakeFiles/FinalProject.dir/lib/src/OtsuThresholdingFilter.cpp.obj"
   "CMakeFiles/FinalProject.dir/lib/src/OtsuThresholdingFilter.cpp.obj.d"
-  "CMakeFiles/FinalProject.dir/lib/src/PointerBoothWindow.cpp.obj"
-  "CMakeFiles/FinalProject.dir/lib/src/PointerBoothWindow.cpp.obj.d"
   "CMakeFiles/FinalProject.dir/lib/src/SimpleBlurFilter.cpp.obj"
   "CMakeFiles/FinalProject.dir/lib/src/SimpleBlurFilter.cpp.obj.d"
   "CMakeFiles/FinalProject.dir/lib/src/VideoEnvironment.cpp.obj"

@@ -387,30 +387,6 @@ lib\src\Pixel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\lib\src\Pixel.cpp.s
 .PHONY : lib\src\Pixel.cpp.s
 
-lib\src\PointerBoothWindow.obj: lib\src\PointerBoothWindow.cpp.obj
-.PHONY : lib\src\PointerBoothWindow.obj
-
-# target to build an object file
-lib\src\PointerBoothWindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.obj
-.PHONY : lib\src\PointerBoothWindow.cpp.obj
-
-lib\src\PointerBoothWindow.i: lib\src\PointerBoothWindow.cpp.i
-.PHONY : lib\src\PointerBoothWindow.i
-
-# target to preprocess a source file
-lib\src\PointerBoothWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.i
-.PHONY : lib\src\PointerBoothWindow.cpp.i
-
-lib\src\PointerBoothWindow.s: lib\src\PointerBoothWindow.cpp.s
-.PHONY : lib\src\PointerBoothWindow.s
-
-# target to generate assembly for a file
-lib\src\PointerBoothWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.s
-.PHONY : lib\src\PointerBoothWindow.cpp.s
-
 lib\src\SimpleBlurFilter.obj: lib\src\SimpleBlurFilter.cpp.obj
 .PHONY : lib\src\SimpleBlurFilter.obj
 
@@ -500,9 +476,6 @@ help:
 	@echo ... lib/src/Pixel.obj
 	@echo ... lib/src/Pixel.i
 	@echo ... lib/src/Pixel.s
-	@echo ... lib/src/PointerBoothWindow.obj
-	@echo ... lib/src/PointerBoothWindow.i
-	@echo ... lib/src/PointerBoothWindow.s
 	@echo ... lib/src/SimpleBlurFilter.obj
 	@echo ... lib/src/SimpleBlurFilter.i
 	@echo ... lib/src/SimpleBlurFilter.s

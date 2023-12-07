@@ -197,9 +197,6 @@
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/MatAdapter.h">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/PointerBoothWindow.h">
-			<Option target="FinalProject"/>
-		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/filters/ContourFilter.h">
 			<Option target="FinalProject"/>
 		</Unit>
@@ -251,9 +248,6 @@
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/Pixel.cpp">
 			<Option target="imgLib"/>
-		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/PointerBoothWindow.cpp">
-			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/SimpleBlurFilter.cpp">
 			<Option target="FinalProject"/>

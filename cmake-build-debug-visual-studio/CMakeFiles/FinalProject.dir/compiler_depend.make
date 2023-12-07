@@ -1425,10 +1425,6 @@ CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\Users\dbu
 CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Filter.h
 
 
-CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\PointerBoothWindow.cpp
-CMakeFiles\FinalProject.dir\lib\src\PointerBoothWindow.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\PointerBoothWindow.h
-
-
 CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\SimpleBlurFilter.cpp
 CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\imgproc.hpp
 CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core.hpp
@@ -2068,8 +2064,6 @@ C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\FilterPa
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h":
 
-C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\PointerBoothWindow.cpp:
-
 C:\tools\opencv\build\include\opencv2\core\cv_cpu_dispatch.h:
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cctype":
@@ -2475,8 +2469,6 @@ C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\..\stb\stb_i
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdarg.h":
 
 C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\OtsuThresholdingFilter.cpp:
-
-C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\PointerBoothWindow.h:
 
 C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\SimpleBlurFilter.cpp:
 

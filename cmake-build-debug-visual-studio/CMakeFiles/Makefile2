@@ -74,7 +74,7 @@ clean: CMakeFiles\FinalProject.dir\clean
 CMakeFiles\imgLib.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=14,15 "Built target imgLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=13,14 "Built target imgLib"
 .PHONY : CMakeFiles\imgLib.dir\all
 
 # Build rule for subdir invocation for target.
@@ -100,7 +100,7 @@ CMakeFiles\imgLib.dir\clean:
 CMakeFiles\jsonLib.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\jsonLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jsonLib.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\jsonLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jsonLib.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=16,17 "Built target jsonLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=15,16 "Built target jsonLib"
 .PHONY : CMakeFiles\jsonLib.dir\all
 
 # Build rule for subdir invocation for target.
@@ -127,12 +127,12 @@ CMakeFiles\FinalProject.dir\all: CMakeFiles\imgLib.dir\all
 CMakeFiles\FinalProject.dir\all: CMakeFiles\jsonLib.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target FinalProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target FinalProject"
 .PHONY : CMakeFiles\FinalProject.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\FinalProject.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles 0
 .PHONY : CMakeFiles\FinalProject.dir\rule

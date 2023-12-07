@@ -17,7 +17,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/Image.cpp" "CMakeFiles/FinalProject.dir/lib/src/Image.cpp.obj" "msvc" "CMakeFiles/FinalProject.dir/lib/src/Image.cpp.obj.d"
   "C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/MatAdapter.cpp" "CMakeFiles/FinalProject.dir/lib/src/MatAdapter.cpp.obj" "msvc" "CMakeFiles/FinalProject.dir/lib/src/MatAdapter.cpp.obj.d"
   "C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/OtsuThresholdingFilter.cpp" "CMakeFiles/FinalProject.dir/lib/src/OtsuThresholdingFilter.cpp.obj" "msvc" "CMakeFiles/FinalProject.dir/lib/src/OtsuThresholdingFilter.cpp.obj.d"
-  "C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/PointerBoothWindow.cpp" "CMakeFiles/FinalProject.dir/lib/src/PointerBoothWindow.cpp.obj" "msvc" "CMakeFiles/FinalProject.dir/lib/src/PointerBoothWindow.cpp.obj.d"
   "C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/SimpleBlurFilter.cpp" "CMakeFiles/FinalProject.dir/lib/src/SimpleBlurFilter.cpp.obj" "msvc" "CMakeFiles/FinalProject.dir/lib/src/SimpleBlurFilter.cpp.obj.d"
   "C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/VideoEnvironment.cpp" "CMakeFiles/FinalProject.dir/lib/src/VideoEnvironment.cpp.obj" "msvc" "CMakeFiles/FinalProject.dir/lib/src/VideoEnvironment.cpp.obj.d"
   )
