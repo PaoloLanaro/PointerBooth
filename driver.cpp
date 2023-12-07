@@ -5,9 +5,6 @@
 #include "VideoEnvironment.h"
 #include "Filter.h"
 #include "FilterPackManager.h"
-#include <opencv2/core/mat.hpp>
-#include <iostream>
-
 
 int main(int argc, char** argv) {
     bool saveThisPack = false;
@@ -31,8 +28,7 @@ int main(int argc, char** argv) {
     if (saveThisPack)
         fpm.handleWriteDialogue(filters);
 
-
-    //run the video
+    // run the video feed
     VideoEnvironment video;
     video.startVideo(filters);
 }
