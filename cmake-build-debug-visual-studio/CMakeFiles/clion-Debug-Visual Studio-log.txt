@@ -1,0 +1,10 @@
+"C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" -S C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520 -B C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: vc16
+-- OpenCV STATIC: OFF
+-- Found OpenCV 4.8.1 in C:/tools/opencv/build/x64/vc16/lib
+-- You might need to add C:\tools\opencv\build\x64\vc16\bin to your PATH to be able to run your applications.
+-- Found wxWidgets: debug;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxmsw32ud_core.lib;optimized;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxmsw32u_core.lib;debug;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxbase32ud.lib;optimized;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxbase32u.lib;debug;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxpngd.lib;optimized;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxpng.lib;debug;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxtiffd.lib;optimized;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxtiff.lib;debug;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxjpegd.lib;optimized;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxjpeg.lib;debug;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxzlibd.lib;optimized;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxzlib.lib;debug;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxregexud.lib;optimized;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxregexu.lib;debug;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxexpatd.lib;optimized;C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/wxexpat.lib;winmm;comctl32;uuid;oleacc;uxtheme;rpcrt4;shlwapi;version;wsock32 (found version "3.2.4") found components: core base png tiff jpeg zlib regex expat 
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio

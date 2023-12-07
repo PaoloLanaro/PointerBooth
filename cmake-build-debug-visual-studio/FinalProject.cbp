@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FinalProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\tools\;CMake Files\..\..\..\..\..\..\tools\opencv\;CMake Files\..\..\..\..\..\..\tools\opencv\build\;CMake Files\..\..\..\..\..\..\tools\opencv\build\x64\;CMake Files\..\..\..\..\..\..\tools\opencv\build\x64\vc16\;CMake Files\..\..\..\..\..\..\tools\opencv\build\x64\vc16\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FinalProject">
+				<Option output="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio/FinalProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include"/>
+					<Add directory="C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/mswu"/>
+					<Add directory="C:/wxWidgets-3.2.4/include"/>
+					<Add directory="C:/tools/opencv/build/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 FinalProject"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FinalProject/fast">
+				<Option output="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio/FinalProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include"/>
+					<Add directory="C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/mswu"/>
+					<Add directory="C:/wxWidgets-3.2.4/include"/>
+					<Add directory="C:/tools/opencv/build/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 FinalProject/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/driver.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Filter.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Filter.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/GlitchFilter.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/PixelSortFilter.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/ScrambleFilter.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/../../../../../../tools/opencv/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\tools\opencv\build\"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/../../../../../../tools/opencv/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\tools\opencv\build\"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/../../../../../../tools/opencv/build/x64/vc16/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\tools\opencv\build\x64\vc16\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/../../../../../../tools/opencv/build/x64/vc16/lib/OpenCVModules-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\tools\opencv\build\x64\vc16\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/../../../../../../tools/opencv/build/x64/vc16/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\tools\opencv\build\x64\vc16\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/../../../../../../tools/opencv/build/x64/vc16/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\tools\opencv\build\x64\vc16\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
