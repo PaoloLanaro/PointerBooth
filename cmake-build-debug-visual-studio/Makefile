@@ -106,6 +106,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named imgLib
+
+# Build rule for target.
+imgLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) imgLib
+.PHONY : imgLib
+
+# fast build rule for target.
+imgLib\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\build
+.PHONY : imgLib\fast
+
+#=============================================================================
 # Target rules for targets named FinalProject
 
 # Build rule for target.
@@ -165,6 +178,30 @@ lib\src\ContourFilter.s: lib\src\ContourFilter.cpp.s
 lib\src\ContourFilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.s
 .PHONY : lib\src\ContourFilter.cpp.s
+
+lib\src\Editor.obj: lib\src\Editor.cpp.obj
+.PHONY : lib\src\Editor.obj
+
+# target to build an object file
+lib\src\Editor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj
+.PHONY : lib\src\Editor.cpp.obj
+
+lib\src\Editor.i: lib\src\Editor.cpp.i
+.PHONY : lib\src\Editor.i
+
+# target to preprocess a source file
+lib\src\Editor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.i
+.PHONY : lib\src\Editor.cpp.i
+
+lib\src\Editor.s: lib\src\Editor.cpp.s
+.PHONY : lib\src\Editor.s
+
+# target to generate assembly for a file
+lib\src\Editor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.s
+.PHONY : lib\src\Editor.cpp.s
 
 lib\src\Filter.obj: lib\src\Filter.cpp.obj
 .PHONY : lib\src\Filter.obj
@@ -238,6 +275,30 @@ lib\src\GrayScaleFilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.s
 .PHONY : lib\src\GrayScaleFilter.cpp.s
 
+lib\src\Image.obj: lib\src\Image.cpp.obj
+.PHONY : lib\src\Image.obj
+
+# target to build an object file
+lib\src\Image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj
+.PHONY : lib\src\Image.cpp.obj
+
+lib\src\Image.i: lib\src\Image.cpp.i
+.PHONY : lib\src\Image.i
+
+# target to preprocess a source file
+lib\src\Image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Image.cpp.i
+.PHONY : lib\src\Image.cpp.i
+
+lib\src\Image.s: lib\src\Image.cpp.s
+.PHONY : lib\src\Image.s
+
+# target to generate assembly for a file
+lib\src\Image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Image.cpp.s
+.PHONY : lib\src\Image.cpp.s
+
 lib\src\MatAdapter.obj: lib\src\MatAdapter.cpp.obj
 .PHONY : lib\src\MatAdapter.obj
 
@@ -286,6 +347,30 @@ lib\src\OtsuThresholdingFilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.s
 .PHONY : lib\src\OtsuThresholdingFilter.cpp.s
 
+lib\src\Pixel.obj: lib\src\Pixel.cpp.obj
+.PHONY : lib\src\Pixel.obj
+
+# target to build an object file
+lib\src\Pixel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\lib\src\Pixel.cpp.obj
+.PHONY : lib\src\Pixel.cpp.obj
+
+lib\src\Pixel.i: lib\src\Pixel.cpp.i
+.PHONY : lib\src\Pixel.i
+
+# target to preprocess a source file
+lib\src\Pixel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\lib\src\Pixel.cpp.i
+.PHONY : lib\src\Pixel.cpp.i
+
+lib\src\Pixel.s: lib\src\Pixel.cpp.s
+.PHONY : lib\src\Pixel.s
+
+# target to generate assembly for a file
+lib\src\Pixel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\lib\src\Pixel.cpp.s
+.PHONY : lib\src\Pixel.cpp.s
+
 lib\src\SimpleBlurFilter.obj: lib\src\SimpleBlurFilter.cpp.obj
 .PHONY : lib\src\SimpleBlurFilter.obj
 
@@ -319,12 +404,16 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... FinalProject
+	@echo ... imgLib
 	@echo ... driver.obj
 	@echo ... driver.i
 	@echo ... driver.s
 	@echo ... lib/src/ContourFilter.obj
 	@echo ... lib/src/ContourFilter.i
 	@echo ... lib/src/ContourFilter.s
+	@echo ... lib/src/Editor.obj
+	@echo ... lib/src/Editor.i
+	@echo ... lib/src/Editor.s
 	@echo ... lib/src/Filter.obj
 	@echo ... lib/src/Filter.i
 	@echo ... lib/src/Filter.s
@@ -334,12 +423,18 @@ help:
 	@echo ... lib/src/GrayScaleFilter.obj
 	@echo ... lib/src/GrayScaleFilter.i
 	@echo ... lib/src/GrayScaleFilter.s
+	@echo ... lib/src/Image.obj
+	@echo ... lib/src/Image.i
+	@echo ... lib/src/Image.s
 	@echo ... lib/src/MatAdapter.obj
 	@echo ... lib/src/MatAdapter.i
 	@echo ... lib/src/MatAdapter.s
 	@echo ... lib/src/OtsuThresholdingFilter.obj
 	@echo ... lib/src/OtsuThresholdingFilter.i
 	@echo ... lib/src/OtsuThresholdingFilter.s
+	@echo ... lib/src/Pixel.obj
+	@echo ... lib/src/Pixel.i
+	@echo ... lib/src/Pixel.s
 	@echo ... lib/src/SimpleBlurFilter.obj
 	@echo ... lib/src/SimpleBlurFilter.i
 	@echo ... lib/src/SimpleBlurFilter.s

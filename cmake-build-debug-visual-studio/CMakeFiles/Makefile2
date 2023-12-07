@@ -52,6 +52,7 @@ CMAKE_BINARY_DIR = C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\c
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles\imgLib.dir\all
 all: CMakeFiles\FinalProject.dir\all
 .PHONY : all
 
@@ -60,22 +61,49 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles\imgLib.dir\clean
 clean: CMakeFiles\FinalProject.dir\clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/imgLib.dir
+
+# All Build rule for target.
+CMakeFiles\imgLib.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=12,13 "Built target imgLib"
+.PHONY : CMakeFiles\imgLib.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\imgLib.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles 0
+.PHONY : CMakeFiles\imgLib.dir\rule
+
+# Convenience name for target.
+imgLib: CMakeFiles\imgLib.dir\rule
+.PHONY : imgLib
+
+# clean rule for target.
+CMakeFiles\imgLib.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\imgLib.dir\clean
+.PHONY : CMakeFiles\imgLib.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/FinalProject.dir
 
 # All Build rule for target.
-CMakeFiles\FinalProject.dir\all:
+CMakeFiles\FinalProject.dir\all: CMakeFiles\imgLib.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target FinalProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target FinalProject"
 .PHONY : CMakeFiles\FinalProject.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\FinalProject.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles 0
 .PHONY : CMakeFiles\FinalProject.dir\rule

@@ -20,11 +20,10 @@ using std::cout, std::endl;
 #include "OtsuThresholdingFilter.h"
 #include "ContourFilter.h"
 #include "MatAdapter.h"
+#include "Image.h"
 
 using namespace std;
 using namespace cv;
-
-typedef cv::Point3_<uint8_t> Pixel;
 
 int videoCapture();
 
@@ -41,7 +40,8 @@ int main() {
 void imageTest() {
     cv::Mat img = cv::imread("../test_images/finger-up.jpg");
     MatAdapter test;
-    cv::imshow("test", img);
+    Image testImg(test.convertToStbiArray(img, 3), 3, img.rows, img.cols / 3);
+
 }
 
 int videoCapture() {

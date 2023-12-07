@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "FinalProject",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FinalProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FinalProject-Debug-7af82a145886e65708a8.json",
+					"jsonFile" : "target-FinalProject-Debug-3d0d7756af67a10ceb5d.json",
 					"name" : "FinalProject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imgLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imgLib-Debug-df1ffbcfc40828199aaf.json",
+					"name" : "imgLib",
 					"projectIndex" : 0
 				}
 			]

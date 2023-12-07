@@ -7,7 +7,7 @@
 
 #include <opencv2/core/types.hpp>
 
-typedef cv::Point3_<uint8_t> Pixel;
+typedef cv::Point3_<uint8_t> CVPixel;
 
 class Filter {
 public:

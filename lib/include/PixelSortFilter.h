@@ -11,8 +11,6 @@
 #include <opencv2/core.hpp>
 #include "Filter.h"
 
-typedef cv::Point3_<uint8_t> Pixel;
-
 class PixelSortFilter : public Filter {
 public:
     virtual void edit(cv::Mat &frame) {

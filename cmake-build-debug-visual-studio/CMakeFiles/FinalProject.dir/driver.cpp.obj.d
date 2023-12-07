@@ -281,3 +281,5 @@ C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Gaussian
 C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/OtsuThresholdingFilter.h
 C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/ContourFilter.h
 C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/MatAdapter.h
+C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Image.h
+C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Pixel.h

@@ -12,8 +12,6 @@
 #include <random>
 #include <iostream>
 
-typedef cv::Point3_<uint8_t> Pixel;
-
 class ScrambleFilter : public Filter {
 public:
     virtual void edit(cv::Mat &frame) {

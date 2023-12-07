@@ -9,11 +9,9 @@
 #include <chrono>
 #include "Filter.h"
 
-typedef cv::Point3_<uint8_t> Pixel;
-
 class GlitchFilter : public Filter {
 public:
-    void operator() (Pixel& pixel, const int* position) const {
+    void operator() (cv::Point3_<uint8_t>& pixel, const int* position) const {
         int choice = rand() % 3;
         auto time = std::chrono::system_clock::now().time_since_epoch();
         long long milliseconds = std::chrono::duration_cast<std::chrono::milliseconds>(time).count();
@@ -31,7 +29,7 @@ public:
     }
 
     virtual void edit(cv::Mat& frame) {
-        frame.forEach<Pixel>(GlitchFilter());
+        frame.forEach<cv::Point3_<uint8_t>>(GlitchFilter());
     };
 };
 #endif //FINALPROJECT_GLITCHFILTER_H

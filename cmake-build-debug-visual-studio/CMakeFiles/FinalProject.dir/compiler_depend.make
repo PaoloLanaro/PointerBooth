@@ -285,6 +285,8 @@ CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\Gi
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\OtsuThresholdingFilter.h
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\ContourFilter.h
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatAdapter.h
+CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Image.h
+CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Pixel.h
 
 
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\ContourFilter.cpp
@@ -464,6 +466,117 @@ CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\tools\opencv\build
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\imgproc.hpp
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\.\imgproc\segmentation.hpp
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\imgproc.hpp
+
+
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Editor.cpp
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals_core.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sal.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\concurrencysal.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vadefs.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xkeycheck.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ios"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocnum"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\climits"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\crtdbg.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new_debug.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\crtdefs.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\use_ansi.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdlib"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_math.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_search.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtr1common"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.inl.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdio"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdio.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_stdio_config.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iterator"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstring"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memory.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memcpy_s.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\errno.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cwchar"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\wchar.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wconio.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wctype.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wdirect.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wio.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_share.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wprocess.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wtime.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\stat.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\types.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstddef"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdint"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\streambuf"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xiosbase"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\share.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\system_error"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\__msvc_system_error_abi.hpp"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cerrno"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdexcept"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\exception"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\malloc.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_exception.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\eh.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_terminate.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cfloat"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\float.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\isa_availability.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\new"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xatomic.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xpolymorphic_allocator.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xcall_once.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xerrc.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xthreads.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtimec.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ctime"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\time.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\typeinfo"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_typeinfo.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xfacet"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocinfo"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocinfo.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cctype"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\ctype.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\clocale"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\locale.h"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Editor.h
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string"
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Image.h
+CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Pixel.h
 
 
 CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Filter.cpp
@@ -931,6 +1044,136 @@ CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: C:\tools\opencv\bui
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\ovx.hpp
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\.\imgproc\segmentation.hpp
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\imgproc.hpp
+
+
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Image.cpp
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals_core.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sal.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\concurrencysal.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vadefs.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xkeycheck.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ios"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocnum"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\climits"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\crtdbg.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new_debug.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\crtdefs.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\use_ansi.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdlib"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_math.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_search.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtr1common"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.inl.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdio"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdio.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_stdio_config.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iterator"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstring"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memory.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memcpy_s.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\errno.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cwchar"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\wchar.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wconio.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wctype.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wdirect.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wio.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_share.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wprocess.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wtime.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\stat.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\types.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstddef"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdint"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\streambuf"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xiosbase"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\share.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\system_error"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\__msvc_system_error_abi.hpp"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cerrno"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdexcept"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\exception"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\malloc.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_exception.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\eh.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_terminate.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cfloat"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\float.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\isa_availability.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\new"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xatomic.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xpolymorphic_allocator.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xcall_once.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xerrc.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xthreads.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtimec.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ctime"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\time.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\typeinfo"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_typeinfo.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xfacet"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocinfo"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocinfo.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cctype"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\ctype.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\clocale"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\locale.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Image.h
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Pixel.h
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\..\stb\stb_image.h
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdarg.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\emmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\mmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\setjmp.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\immintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\wmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\nmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\smmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\pmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\zmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ammintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\..\stb\stb_image_write.h
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h"
+CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h"
 
 
 CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatAdapter.cpp
@@ -1708,6 +1951,8 @@ C:\tools\opencv\build\include\opencv2\flann\kdtree_index.h:
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\smmintrin.h":
 
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Editor.h:
+
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tmmintrin.h":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\pmmintrin.h":
@@ -1731,6 +1976,8 @@ C:\tools\opencv\build\include\opencv2\opencv_modules.hpp:
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm":
 
 C:\tools\opencv\build\include\opencv2\core\cvstd.hpp:
+
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Image.cpp:
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string":
 
@@ -1948,7 +2195,17 @@ C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\SimpleBl
 
 C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\OtsuThresholdingFilter.h:
 
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Image.h:
+
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Pixel.h:
+
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Editor.cpp:
+
 C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Filter.cpp:
+
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\..\stb\stb_image.h:
+
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\..\stb\stb_image_write.h:
 
 C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\OtsuThresholdingFilter.cpp:
 
