@@ -5,7 +5,7 @@
 #include <iostream>
 #include "Editor.h"
 
-const float POINTILLISM_SCALE_FACTOR = .02;
+const float POINTILLISM_SCALE_FACTOR = .01;
 
 Editor::Editor(Image &a) : toEdit(a) { }
 
@@ -149,7 +149,7 @@ void Editor::addBorder(int size, int r, int g, int b) {
 void Editor::pointillism() {
     int maxRadius = std::min(toEdit.height, toEdit.width) * POINTILLISM_SCALE_FACTOR;
 
-    for(int point = 0; point < toEdit.height * toEdit.width; point++) {
+    for(int point = 0; point < toEdit.height * toEdit.width / 10; point++) {
         toEdit.recolorSurroundingPixels(rand() % toEdit.width, rand() % toEdit.height, rand() % maxRadius);
     }
 }

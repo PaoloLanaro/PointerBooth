@@ -47,9 +47,9 @@ unsigned char* MatAdapter::convertToStbiArray(const cv::Mat& input, int numCompo
 }
 
 cv::Vec3b getVecFromNextVals(const unsigned char *imgData) {
-    auto first = imgData[0];
+    auto first = imgData[2];
     auto second = imgData[1];
-    auto third = imgData[2];
+    auto third = imgData[0];
     cv::Vec3b output(first, second, third);
     return output;
 }
@@ -67,22 +67,25 @@ cv::Vec3b getVecFromNextVals(const unsigned char *imgData) {
 cv::Mat MatAdapter::convertToMatrix(unsigned char *imgData, int numComponents, int imgWidthPixels, int imgHeightPixels) {
     cv::Mat output;
     if (numComponents == 3) {
-        output = cv::Mat(imgHeightPixels, imgWidthPixels, CV_8U); // 8U represents single unsigned integer
+        output = cv::Mat(imgHeightPixels, imgWidthPixels, CV_8UC3); // 8U represents single unsigned integer
     } else {
-        output = cv::Mat(imgHeightPixels, imgWidthPixels, CV_8UC3); // 8U represents 3 channel integers
+        output = cv::Mat(imgHeightPixels, imgWidthPixels, CV_8U); // 8U represents 3 channel integers
     }
+
+    std::cout << output.cols << std::endl;
 
     int curIndex = 0;
     for (int curRow = 0; curRow < imgHeightPixels; curRow++) {
         for (int curCol = 0; curCol < imgWidthPixels; curCol++) { //go to the start of the last grouping
-            std::cout << curIndex << " ";
+            //std::cout << curIndex << " ";
             if (numComponents == 3) {
+                //std::cout << curRow << " " << curCol << "   ";
                 output.at<cv::Vec3b>(curRow, curCol) = getVecFromNextVals(imgData + curIndex);
-                curIndex += 2;
+                curIndex += 3;
             } else {
                 output.at<uchar>(curRow, curCol) = imgData[curIndex];
+                curIndex += 1;
             }
-            curIndex++;
         }
     }
     return output;
