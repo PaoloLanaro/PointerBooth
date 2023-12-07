@@ -203,30 +203,6 @@ lib\src\Editor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.s
 .PHONY : lib\src\Editor.cpp.s
 
-lib\src\Filter.obj: lib\src\Filter.cpp.obj
-.PHONY : lib\src\Filter.obj
-
-# target to build an object file
-lib\src\Filter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj
-.PHONY : lib\src\Filter.cpp.obj
-
-lib\src\Filter.i: lib\src\Filter.cpp.i
-.PHONY : lib\src\Filter.i
-
-# target to preprocess a source file
-lib\src\Filter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.i
-.PHONY : lib\src\Filter.cpp.i
-
-lib\src\Filter.s: lib\src\Filter.cpp.s
-.PHONY : lib\src\Filter.s
-
-# target to generate assembly for a file
-lib\src\Filter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.s
-.PHONY : lib\src\Filter.cpp.s
-
 lib\src\GaussianBlurFilter.obj: lib\src\GaussianBlurFilter.cpp.obj
 .PHONY : lib\src\GaussianBlurFilter.obj
 
@@ -323,6 +299,30 @@ lib\src\MatAdapter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.s
 .PHONY : lib\src\MatAdapter.cpp.s
 
+lib\src\MatrixFilter.obj: lib\src\MatrixFilter.cpp.obj
+.PHONY : lib\src\MatrixFilter.obj
+
+# target to build an object file
+lib\src\MatrixFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj
+.PHONY : lib\src\MatrixFilter.cpp.obj
+
+lib\src\MatrixFilter.i: lib\src\MatrixFilter.cpp.i
+.PHONY : lib\src\MatrixFilter.i
+
+# target to preprocess a source file
+lib\src\MatrixFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.i
+.PHONY : lib\src\MatrixFilter.cpp.i
+
+lib\src\MatrixFilter.s: lib\src\MatrixFilter.cpp.s
+.PHONY : lib\src\MatrixFilter.s
+
+# target to generate assembly for a file
+lib\src\MatrixFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.s
+.PHONY : lib\src\MatrixFilter.cpp.s
+
 lib\src\OtsuThresholdingFilter.obj: lib\src\OtsuThresholdingFilter.cpp.obj
 .PHONY : lib\src\OtsuThresholdingFilter.obj
 
@@ -395,6 +395,30 @@ lib\src\SimpleBlurFilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.s
 .PHONY : lib\src\SimpleBlurFilter.cpp.s
 
+lib\src\VideoEnvironment.obj: lib\src\VideoEnvironment.cpp.obj
+.PHONY : lib\src\VideoEnvironment.obj
+
+# target to build an object file
+lib\src\VideoEnvironment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj
+.PHONY : lib\src\VideoEnvironment.cpp.obj
+
+lib\src\VideoEnvironment.i: lib\src\VideoEnvironment.cpp.i
+.PHONY : lib\src\VideoEnvironment.i
+
+# target to preprocess a source file
+lib\src\VideoEnvironment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.i
+.PHONY : lib\src\VideoEnvironment.cpp.i
+
+lib\src\VideoEnvironment.s: lib\src\VideoEnvironment.cpp.s
+.PHONY : lib\src\VideoEnvironment.s
+
+# target to generate assembly for a file
+lib\src\VideoEnvironment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.s
+.PHONY : lib\src\VideoEnvironment.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -414,9 +438,6 @@ help:
 	@echo ... lib/src/Editor.obj
 	@echo ... lib/src/Editor.i
 	@echo ... lib/src/Editor.s
-	@echo ... lib/src/Filter.obj
-	@echo ... lib/src/Filter.i
-	@echo ... lib/src/Filter.s
 	@echo ... lib/src/GaussianBlurFilter.obj
 	@echo ... lib/src/GaussianBlurFilter.i
 	@echo ... lib/src/GaussianBlurFilter.s
@@ -429,6 +450,9 @@ help:
 	@echo ... lib/src/MatAdapter.obj
 	@echo ... lib/src/MatAdapter.i
 	@echo ... lib/src/MatAdapter.s
+	@echo ... lib/src/MatrixFilter.obj
+	@echo ... lib/src/MatrixFilter.i
+	@echo ... lib/src/MatrixFilter.s
 	@echo ... lib/src/OtsuThresholdingFilter.obj
 	@echo ... lib/src/OtsuThresholdingFilter.i
 	@echo ... lib/src/OtsuThresholdingFilter.s
@@ -438,6 +462,9 @@ help:
 	@echo ... lib/src/SimpleBlurFilter.obj
 	@echo ... lib/src/SimpleBlurFilter.i
 	@echo ... lib/src/SimpleBlurFilter.s
+	@echo ... lib/src/VideoEnvironment.obj
+	@echo ... lib/src/VideoEnvironment.i
+	@echo ... lib/src/VideoEnvironment.s
 .PHONY : help
 
 

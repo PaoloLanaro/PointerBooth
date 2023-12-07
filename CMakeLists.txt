@@ -26,9 +26,8 @@ target_include_directories(imgLib PRIVATE lib/include lib/stb)
 add_executable(${CMAKE_PROJECT_NAME} driver.cpp
         lib/include/GlitchFilter.h
         lib/include/PixelSortFilter.h
-        lib/src/Filter.cpp
-        lib/include/Filter.h
-        lib/include/ScrambleFilter.h
+        lib/src/MatrixFilter.cpp
+        lib/include/MatrixFilter.h
         lib/include/GrayScaleFilter.h
         lib/src/GrayScaleFilter.cpp
         lib/include/GaussianBlurFilter.h
@@ -47,6 +46,10 @@ add_executable(${CMAKE_PROJECT_NAME} driver.cpp
         lib/src/Image.cpp
         lib/include/Editor.h
         lib/src/Editor.cpp
+        lib/src/VideoEnvironment.cpp
+        lib/include/VideoEnvironment.h
+        lib/include/LegacyFilter.h
+        lib/include/Filter.h
         # lib/include/name.h todo
 )
 

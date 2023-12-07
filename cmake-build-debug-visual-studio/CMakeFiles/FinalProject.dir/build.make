@@ -78,24 +78,24 @@ CMakeFiles\FinalProject.dir\driver.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FinalProject.dir\driver.cpp.s /c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\driver.cpp
 <<
 
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Filter.cpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/Filter.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Filter.cpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatrixFilter.cpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/MatrixFilter.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatrixFilter.cpp
 <<
 
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/lib/src/Filter.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe > CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Filter.cpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/lib/src/MatrixFilter.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe > CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatrixFilter.cpp
 <<
 
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/lib/src/Filter.cpp.s"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/lib/src/MatrixFilter.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FinalProject.dir\lib\src\Filter.cpp.s /c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Filter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.s /c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatrixFilter.cpp
 <<
 
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
@@ -258,10 +258,30 @@ CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FinalProject.dir\lib\src\Editor.cpp.s /c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Editor.cpp
 <<
 
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: CMakeFiles\FinalProject.dir\flags.make
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\VideoEnvironment.cpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: CMakeFiles\FinalProject.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FinalProject.dir/lib/src/VideoEnvironment.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj.d --working-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj /FdCMakeFiles\FinalProject.dir\ /FS -c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\VideoEnvironment.cpp
+<<
+
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/lib/src/VideoEnvironment.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe > CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\VideoEnvironment.cpp
+<<
+
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/lib/src/VideoEnvironment.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.s /c C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\VideoEnvironment.cpp
+<<
+
 # Object files for target FinalProject
 FinalProject_OBJECTS = \
 "CMakeFiles\FinalProject.dir\driver.cpp.obj" \
-"CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj" \
+"CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj" \
@@ -269,13 +289,14 @@ FinalProject_OBJECTS = \
 "CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj" \
 "CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj" \
-"CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj"
+"CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj" \
+"CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj"
 
 # External object files for target FinalProject
 FinalProject_EXTERNAL_OBJECTS =
 
 FinalProject.exe: CMakeFiles\FinalProject.dir\driver.cpp.obj
-FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj
+FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj
@@ -284,6 +305,7 @@ FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\Image.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj
+FinalProject.exe: CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj
 FinalProject.exe: CMakeFiles\FinalProject.dir\build.make
 FinalProject.exe: C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxmsw32ud_core.lib
 FinalProject.exe: C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxbase32ud.lib
@@ -299,7 +321,7 @@ FinalProject.exe: C:\tools\opencv\build\x64\vc16\lib\opencv_world481d.lib
 FinalProject.exe: C:\tools\opencv\build\x64\vc16\lib\opencv_world481d.lib
 FinalProject.exe: imgLib.lib
 FinalProject.exe: CMakeFiles\FinalProject.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable FinalProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable FinalProject.exe"
 	"C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\FinalProject.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\FinalProject.dir\objects1.rsp @<<
  /out:FinalProject.exe /implib:FinalProject.lib /pdb:C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\FinalProject.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxmsw32ud_core.lib C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxbase32ud.lib C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxpngd.lib C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxtiffd.lib C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxjpegd.lib C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxzlibd.lib C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxregexud.lib C:\wxWidgets-3.2.4\lib\vc14x_x64_dll\wxexpatd.lib winmm.lib comctl32.lib uuid.lib oleacc.lib uxtheme.lib rpcrt4.lib shlwapi.lib version.lib wsock32.lib C:\tools\opencv\build\x64\vc16\lib\opencv_world481d.lib C:\tools\opencv\build\x64\vc16\lib\opencv_world481d.lib C:\tools\opencv\build\x64\vc16\lib\opencv_world481d.lib C:\tools\opencv\build\x64\vc16\lib\opencv_world481d.lib imgLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

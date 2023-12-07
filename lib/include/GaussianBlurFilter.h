@@ -5,9 +5,9 @@
 #ifndef FINALPROJECT_GAUSSIANBLURFILTER_H
 #define FINALPROJECT_GAUSSIANBLURFILTER_H
 
-#include "Filter.h"
+#include "MatrixFilter.h"
 
-class GaussianBlurFilter : public Filter {
+class GaussianBlurFilter : public MatrixFilter {
 public:
     // should only ever be executed with a cloned frame. This WILL mutate the param Matrix!!
     virtual void edit(cv::Mat& frame) override;

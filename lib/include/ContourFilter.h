@@ -6,9 +6,9 @@
 #define FINALPROJECT_CONTOURFILTER_H
 
 #include <opencv2/core/mat.hpp>
-#include "Filter.h"
+#include "MatrixFilter.h"
 
-class ContourFilter : public Filter {
+class ContourFilter : public MatrixFilter {
 private:
     cv::Mat initialImage;
 public:

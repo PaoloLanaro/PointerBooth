@@ -115,7 +115,7 @@ C:/tools/opencv/build/include/opencv2/core/types.hpp
 C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include/vector
 C:/tools/opencv/build/include/opencv2/core/bufferpool.hpp
 C:/tools/opencv/build/include/opencv2/core/mat.inl.hpp
-C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Filter.h
+C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/MatrixFilter.h
 C:/tools/opencv/build/include/opencv2/highgui/highgui.hpp
 C:/tools/opencv/build/include/opencv2/highgui.hpp
 C:/tools/opencv/build/include/opencv2/core.hpp

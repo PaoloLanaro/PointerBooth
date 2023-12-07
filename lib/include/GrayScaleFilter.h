@@ -5,9 +5,9 @@
 #ifndef FINALPROJECT_GRAYSCALEFILTER_H
 #define FINALPROJECT_GRAYSCALEFILTER_H
 
-#include "Filter.h"
+#include "MatrixFilter.h"
 
-class GrayScaleFilter : public Filter {
+class GrayScaleFilter : public MatrixFilter {
 public:
     // should only ever be run with a cloned frame. This WILL mutate the param Matrix!!
     virtual void edit(cv::Mat &frame) override;

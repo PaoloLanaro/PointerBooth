@@ -178,7 +178,13 @@
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Image.h">
 			<Option target="FinalProject"/>
 		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/LegacyFilter.h">
+			<Option target="FinalProject"/>
+		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/MatAdapter.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/MatrixFilter.h">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/OtsuThresholdingFilter.h">
@@ -187,19 +193,16 @@
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/PixelSortFilter.h">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/ScrambleFilter.h">
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/SimpleBlurFilter.h">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/SimpleBlurFilter.h">
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/VideoEnvironment.h">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/ContourFilter.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/Editor.cpp">
-			<Option target="FinalProject"/>
-		</Unit>
-		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/Filter.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/GaussianBlurFilter.cpp">
@@ -214,6 +217,9 @@
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/MatAdapter.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/MatrixFilter.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/OtsuThresholdingFilter.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
@@ -221,6 +227,9 @@
 			<Option target="imgLib"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/SimpleBlurFilter.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/VideoEnvironment.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/stb/stb_image.h">

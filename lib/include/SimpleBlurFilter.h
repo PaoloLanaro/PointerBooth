@@ -5,9 +5,9 @@
 #ifndef FINALPROJECT_SIMPLEBLURFILTER_H
 #define FINALPROJECT_SIMPLEBLURFILTER_H
 
-#include "Filter.h"
+#include "MatrixFilter.h"
 
-class SimpleBlurFilter : public Filter {
+class SimpleBlurFilter : public MatrixFilter {
 public:
     // should only ever be executed with a cloned frame. This WILL mutate the param Matrix!!
     virtual void edit(cv::Mat& frame) override;

@@ -275,9 +275,7 @@ CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\tools\opencv\build\include\opencv
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\tools\opencv\build\include\opencv2\video\tracking.hpp
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\tools\opencv\build\include\opencv2\video\background_segm.hpp
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\PixelSortFilter.h
-CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Filter.h
-CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\ScrambleFilter.h
-CMakeFiles\FinalProject.dir\driver.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\random"
+CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatrixFilter.h
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\GlitchFilter.h
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\GrayScaleFilter.h
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\SimpleBlurFilter.h
@@ -288,6 +286,7 @@ CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\Gi
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Image.h
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Pixel.h
 CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Editor.h
+CMakeFiles\FinalProject.dir\driver.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\VideoEnvironment.h
 
 
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\ContourFilter.cpp
@@ -408,7 +407,7 @@ CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\tools\opencv\build
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector"
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\bufferpool.hpp
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\mat.inl.hpp
-CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Filter.h
+CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatrixFilter.h
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\highgui\highgui.hpp
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\highgui.hpp
 CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core.hpp
@@ -578,123 +577,6 @@ CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: C:\Users\dbusn\OneDrive\Docu
 CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string"
 CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Image.h
 CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Pixel.h
-
-
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Filter.cpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Filter.h
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\types.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\climits"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals_core.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sal.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\concurrencysal.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vadefs.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xkeycheck.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cfloat"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\float.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdint"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdlib"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_math.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_search.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cwchar"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdio"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdio.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_stdio_config.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\wchar.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memcpy_s.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\errno.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wconio.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wctype.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wdirect.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wio.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_share.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wprocess.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wtime.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\stat.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\types.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.inl.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\isa_availability.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstddef"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtr1common"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\new"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\exception"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\crtdbg.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new_debug.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\crtdefs.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\use_ansi.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\malloc.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_exception.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\eh.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_terminate.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xatomic.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstring"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memory.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xpolymorphic_allocator.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cvdef.h
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\version.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\hal\interface.h
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cv_cpu_dispatch.h
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\emmintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmmintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\mmintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\setjmp.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\immintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\wmmintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\nmmintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\smmintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tmmintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\pmmintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\zmmintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ammintrin.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\array"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cvstd.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cctype"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\ctype.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cvstd_wrapper.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\typeinfo"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_typeinfo.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\matx.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\base.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\opencv_modules.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\neon_utils.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\vsx_utils.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h"
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\check.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\base.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\traits.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\saturate.hpp
-CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\fast_math.hpp
 
 
 CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\GaussianBlurFilter.cpp
@@ -869,12 +751,12 @@ CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj: C:\tools\opencv\
 CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\.\imgproc\segmentation.hpp
 CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\imgproc.hpp
 CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\GaussianBlurFilter.h
-CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Filter.h
+CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatrixFilter.h
 
 
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\GrayScaleFilter.cpp
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\GrayScaleFilter.h
-CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Filter.h
+CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatrixFilter.h
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\types.hpp
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\climits"
 CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals_core.h"
@@ -1323,6 +1205,123 @@ CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj: C:\tools\opencv\build\in
 CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\mat.inl.hpp
 
 
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatrixFilter.cpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatrixFilter.h
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\types.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\climits"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals_core.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sal.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\concurrencysal.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vadefs.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xkeycheck.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cfloat"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\float.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdint"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdlib"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_math.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_search.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cwchar"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdio"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdio.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_stdio_config.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\wchar.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memcpy_s.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\errno.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wconio.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wctype.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wdirect.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wio.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_share.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wprocess.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wtime.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\stat.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\types.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.inl.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\isa_availability.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstddef"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtr1common"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\new"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\exception"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\crtdbg.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new_debug.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\crtdefs.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\use_ansi.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\malloc.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_exception.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\eh.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_terminate.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xatomic.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstring"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memory.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xpolymorphic_allocator.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cvdef.h
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\version.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\hal\interface.h
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cv_cpu_dispatch.h
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\emmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\mmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\setjmp.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\immintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\wmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\nmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\smmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\pmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\zmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ammintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\array"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cvstd.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cctype"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\ctype.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cvstd_wrapper.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\typeinfo"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_typeinfo.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\matx.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\base.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\opencv_modules.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\neon_utils.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\vsx_utils.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h"
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\check.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\base.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\traits.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\saturate.hpp
+CMakeFiles\FinalProject.dir\lib\src\MatrixFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core\fast_math.hpp
+
+
 CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\OtsuThresholdingFilter.cpp
 CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\imgproc.hpp
 CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\core.hpp
@@ -1495,7 +1494,7 @@ CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\tools\ope
 CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\.\imgproc\segmentation.hpp
 CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\imgproc.hpp
 CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\OtsuThresholdingFilter.h
-CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Filter.h
+CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatrixFilter.h
 
 
 CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\SimpleBlurFilter.cpp
@@ -1670,7 +1669,293 @@ CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\tools\opencv\bu
 CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\.\imgproc\segmentation.hpp
 CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\tools\opencv\build\include\opencv2\imgproc.hpp
 CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\SimpleBlurFilter.h
-CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Filter.h
+CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatrixFilter.h
+
+
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\VideoEnvironment.cpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\opencv.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\opencv_modules.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cvdef.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\version.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals_core.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sal.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\concurrencysal.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vadefs.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xkeycheck.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cfloat"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\float.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\climits"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cwchar"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdio"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdio.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_stdio_config.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\wchar.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memcpy_s.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\errno.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wconio.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wctype.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wdirect.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wio.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_share.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wprocess.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wtime.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\stat.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\types.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.inl.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\isa_availability.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstddef"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtr1common"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdlib"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_math.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_search.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\hal\interface.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cv_cpu_dispatch.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\emmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\mmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\malloc.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\setjmp.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\immintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\wmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\nmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\smmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\pmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\zmmintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ammintrin.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\array"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\crtdbg.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new_debug.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\crtdefs.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\use_ansi.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstring"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memory.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdint"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\base.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\opencv_modules.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\new"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\exception"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_exception.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\eh.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_terminate.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xatomic.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cvstd.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cctype"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\ctype.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xpolymorphic_allocator.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cvstd_wrapper.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\typeinfo"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_typeinfo.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\neon_utils.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\vsx_utils.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\check.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\base.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\traits.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\matx.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\saturate.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\fast_math.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\types.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\mat.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\bufferpool.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\mat.inl.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\persistence.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\operations.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cvstd.inl.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\complex"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sstream"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ios"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocnum"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iterator"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\streambuf"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xiosbase"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\share.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\system_error"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\__msvc_system_error_abi.hpp"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cerrno"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdexcept"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xcall_once.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xerrc.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xthreads.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtimec.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ctime"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\time.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xfacet"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocinfo"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocinfo.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\clocale"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\locale.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ymath.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\utility.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\unordered_map"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xhash"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xbit_ops.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xnode_handle.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\mutex"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\__msvc_chrono.hpp"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ratio"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\thread"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\process.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_startup.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_startup.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\optim.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\ovx.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\calib3d.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\features2d.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\opencv_modules.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\miniflann.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\defines.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\config.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\affine.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\dnn.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\dnn\dnn.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\async.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\chrono"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\dnn\..\dnn\version.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\dnn\dict.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\map"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtree"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\dnn\dnn.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\dnn\layer.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\dnn.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\dnn\dnn.inl.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\dnn\utils\inference_engine.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\dnn\utils\..\dnn.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\flann_base.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\general.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\matrix.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\params.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\any.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\saving.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\nn_index.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\result_set.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\set"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\all_indices.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\kdtree_index.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\dynamic_bitset.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\dist.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\heap.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\allocator.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\random.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\kdtree_single_index.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\kmeans_index.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\logger.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdarg.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\composite_index.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\linear_index.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\hierarchical_clustering_index.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\lsh_index.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\lsh_table.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iomanip"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocmon"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xloctime"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\autotuned_index.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\ground_truth.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\index_testing.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\timer.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\flann\sampling.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\highgui.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\imgcodecs.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\videoio.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\imgproc.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\.\imgproc\segmentation.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\imgproc.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\ml.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\ml\ml.inl.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\objdetect.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\objdetect\aruco_detector.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\objdetect\aruco_dictionary.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\objdetect\aruco_board.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\objdetect\graphical_code_detector.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\objdetect\detection_based_tracker.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\objdetect\face.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\objdetect\charuco_detector.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\objdetect\barcode.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\photo.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\warpers.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\warpers.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cuda.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cuda_types.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cuda.inl.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\core\cuda.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\opencv_modules.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\warpers_inl.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\warpers.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\matchers.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\opencv_modules.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\motion_estimators.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\util.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\util_inl.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\queue"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\deque"
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\util.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\camera.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\exposure_compensate.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\seam_finders.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\opencv_modules.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\stitching\detail\blenders.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\video.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\video\tracking.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\tools\opencv\build\include\opencv2\video\background_segm.hpp
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\VideoEnvironment.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatrixFilter.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\GrayScaleFilter.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\SimpleBlurFilter.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\GaussianBlurFilter.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\OtsuThresholdingFilter.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\GlitchFilter.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\PixelSortFilter.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatAdapter.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Image.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Pixel.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Editor.h
+CMakeFiles\FinalProject.dir\lib\src\VideoEnvironment.cpp.obj: C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\ContourFilter.h
 
 
 
@@ -2210,11 +2495,9 @@ C:\tools\opencv\build\include\opencv2\video.hpp:
 
 C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\PixelSortFilter.h:
 
-C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Filter.h:
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\VideoEnvironment.cpp:
 
-C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\ScrambleFilter.h:
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\random":
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\MatrixFilter.h:
 
 C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\GlitchFilter.h:
 
@@ -2226,13 +2509,15 @@ C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Image.h:
 
 C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\Pixel.h:
 
-C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Editor.cpp:
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\..\stb\stb_image_write.h:
 
-C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Filter.cpp:
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\include\VideoEnvironment.h:
+
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\Editor.cpp:
 
 C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\..\stb\stb_image.h:
 
-C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\..\stb\stb_image_write.h:
+C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\MatrixFilter.cpp:
 
 C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\lib\src\OtsuThresholdingFilter.cpp:
 

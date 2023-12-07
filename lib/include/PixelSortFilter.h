@@ -9,9 +9,9 @@
 #include <chrono>
 #include <opencv2/core/mat.hpp>
 #include <opencv2/core.hpp>
-#include "Filter.h"
+#include "MatrixFilter.h"
 
-class PixelSortFilter : public Filter {
+class PixelSortFilter : public MatrixFilter {
 public:
     virtual void edit(cv::Mat &frame) {
         for (int col = 0; col < frame.cols; ++col) {

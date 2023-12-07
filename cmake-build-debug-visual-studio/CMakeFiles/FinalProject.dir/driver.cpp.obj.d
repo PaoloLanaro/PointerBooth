@@ -271,9 +271,7 @@ C:/tools/opencv/build/include/opencv2/video.hpp
 C:/tools/opencv/build/include/opencv2/video/tracking.hpp
 C:/tools/opencv/build/include/opencv2/video/background_segm.hpp
 C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/PixelSortFilter.h
-C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Filter.h
-C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/ScrambleFilter.h
-C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include/random
+C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/MatrixFilter.h
 C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/GlitchFilter.h
 C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/GrayScaleFilter.h
 C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/SimpleBlurFilter.h
@@ -284,3 +282,4 @@ C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/MatAdapt
 C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Image.h
 C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Pixel.h
 C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/Editor.h
+C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include/VideoEnvironment.h

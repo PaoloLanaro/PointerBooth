@@ -7,9 +7,9 @@
 
 #include <opencv2/core/types.hpp>
 #include <chrono>
-#include "Filter.h"
+#include "MatrixFilter.h"
 
-class GlitchFilter : public Filter {
+class GlitchFilter : public MatrixFilter {
 public:
     void operator() (cv::Point3_<uint8_t>& pixel, const int* position) const {
         int choice = rand() % 3;
