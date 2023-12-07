@@ -46,6 +46,12 @@ unsigned char* MatAdapter::convertToStbiArray(const cv::Mat& input, int numCompo
     return outputPixels;
 }
 
+/**
+ * Return a vector of the next 3 values
+ *
+ * @param imgData stbi data to read from
+ * @return Vector pixel equivalent
+ */
 cv::Vec3b getVecFromNextVals(const unsigned char *imgData) {
     auto first = imgData[2];
     auto second = imgData[1];
@@ -71,8 +77,6 @@ cv::Mat MatAdapter::convertToMatrix(unsigned char *imgData, int numComponents, i
     } else {
         output = cv::Mat(imgHeightPixels, imgWidthPixels, CV_8U); // 8U represents 3 channel integers
     }
-
-    std::cout << output.cols << std::endl;
 
     int curIndex = 0;
     for (int curRow = 0; curRow < imgHeightPixels; curRow++) {

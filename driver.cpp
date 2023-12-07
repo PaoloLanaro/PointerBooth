@@ -5,12 +5,10 @@
 #include "VideoEnvironment.h"
 #include "Filter.h"
 
-#include <wx/wx.h>
-
 int main(int argc, char** argv) {
     std::vector<std::string> filters;
-    filters.emplace_back("pointillism");
-    filters.emplace_back("greyscale");
+    for (int curArg = 1; curArg < argc; curArg++)
+        filters.emplace_back(argv[curArg]);
     VideoEnvironment video;
     video.startVideo(filters);
 }

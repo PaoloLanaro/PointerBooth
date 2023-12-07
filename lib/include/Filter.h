@@ -9,6 +9,9 @@
 
 typedef cv::Point3_<uint8_t> CVPixel;
 
+/**
+ * Represents a filter which applies an effect to a frame
+ */
 class Filter {
 public:
     virtual void edit(cv::Mat &frame) = 0;

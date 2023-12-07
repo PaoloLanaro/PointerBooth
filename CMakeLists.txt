@@ -3,7 +3,7 @@ project(FinalProject)
 
 set(CMAKE_CXX_STANDARD 17)
 set(ENV{OPENCV_DIR} "C:\\tools\\opencv\\build")
-set(ENV{wxWidgets_ROOT_DIR} "C:\\wxWidgets-3.2.4")
+set(ENV{wxWidgets_ROOT_DIR} "C:\\wxWidgets-3.2.4\\")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
 # create a statically linked library named libimgLib

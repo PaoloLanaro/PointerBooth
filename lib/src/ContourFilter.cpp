@@ -8,6 +8,11 @@
 using namespace std;
 using namespace cv;
 
+/**
+ * Filter to apply contouring effect
+ *
+ * @param frame frame to edit
+ */
 void ContourFilter::edit(Mat &frame) {
     if (frame.channels() != 1) {
         return;
@@ -20,6 +25,11 @@ void ContourFilter::edit(Mat &frame) {
     drawContours(initialImage, contours, -1, Scalar(0, 0, 255), 2);
 }
 
+/**
+ * Constructor for editor
+ *
+ * @param ioFrame Frame to edit
+ */
 ContourFilter::ContourFilter(Mat &ioFrame) {
     this->initialImage = ioFrame;
 }

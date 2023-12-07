@@ -4,6 +4,11 @@
 #include <opencv2/imgproc.hpp>
 #include "filters/OtsuThresholdingFilter.h"
 
+/**
+ * Apply Otsu Thresholding effect
+ *
+ * @param frame Frame to edit
+ */
 void OtsuThresholdingFilter::edit(cv::Mat &frame) {
     double thresh = 100;
     double maxValue = 255;

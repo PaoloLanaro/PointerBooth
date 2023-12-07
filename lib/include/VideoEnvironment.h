@@ -8,6 +8,9 @@
 
 #include "Filter.h"
 
+/**
+ * VideoEnvironment represents the associated data with a video scene
+ */
 class VideoEnvironment {
 private:
     void applyFilters(cv::Mat&, std::vector<std::string>);

@@ -17,6 +17,11 @@
 #include "filters/ContourFilter.h"
 #include "filters/PointillismFilter.h"
 
+/**
+ * Show video with the provided list of filters
+ *
+ * @param filters the list of filters to apply in order
+ */
 void VideoEnvironment::startVideo(const std::vector<std::string>& filters) {
     cv::VideoCapture videoCam(0);
     videoCam.set(cv::CAP_PROP_SETTINGS, 1);
@@ -41,6 +46,9 @@ void VideoEnvironment::startVideo(const std::vector<std::string>& filters) {
 
 }
 
+/**
+ * Show all examples of filters at once
+ */
 void VideoEnvironment::startExamples() {
     cv::VideoCapture videoCam(0);
     videoCam.set(cv::CAP_PROP_SETTINGS, 1);
@@ -117,7 +125,12 @@ void VideoEnvironment::startExamples() {
 }
 
 
-
+/**
+ * Convert arg to lowercase for parsing
+ *
+ * @param input parameter
+ * @return lowercase version
+ */
 std::string convertToLower(std::string input) {
     std::string output = "";
     for (char i : input) {
@@ -126,6 +139,12 @@ std::string convertToLower(std::string input) {
     return output;
 }
 
+/**
+ * Apply filters from the provided list in order.
+ *
+ * @param frame The frame to edit
+ * @param filtersList The list of filter names
+ */
 void VideoEnvironment::applyFilters(cv::Mat& frame, std::vector<std::string> filtersList) {
     for (std::string requestName : filtersList) {
         requestName = convertToLower(requestName);
