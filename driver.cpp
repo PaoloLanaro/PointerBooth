@@ -21,6 +21,8 @@ using std::cout, std::endl;
 #include "ContourFilter.h"
 #include "MatAdapter.h"
 #include "Image.h"
+#include "Editor.h"
+
 
 using namespace std;
 using namespace cv;
@@ -30,17 +32,25 @@ int videoCapture();
 void imageTest();
 
 int main() {
-//    return videoCapture();
+    return videoCapture();
 
-    imageTest();
+//    imageTest();
 
     return 0;
 }
 
 void imageTest() {
-    cv::Mat img = cv::imread("../test_images/finger-up.jpg");
+    cv::Mat img = cv::imread("../test_images/slap.png");
+    std::cout << img.rows;
+    std::cout << img.cols;
     MatAdapter test;
-    Image testImg(test.convertToStbiArray(img, 3), 3, img.rows, img.cols / 3);
+    unsigned char* data = test.convertToStbiArray(img, 3);
+    Image testImg(data, img.rows, img.cols, 3);
+
+    Editor rissa(testImg);
+    rissa.pointillism();
+
+    testImg.saveAs("rileysdodng.png");
 
 }
 
@@ -99,7 +109,16 @@ int videoCapture() {
 //        psf.edit(&currFrame);
 //        sf.edit(&currFrame);
 
-        cv::Mat ioFrame = currFrame.clone();
+        MatAdapter test;
+        unsigned char* data = test.convertToStbiArray(currFrame, 3);
+        Image testImg(data, currFrame.rows, currFrame.cols, 3);
+        Editor rissa(testImg);
+        rissa.pointillism();
+
+        cv::Mat updatedFrame = test.convertToMatrix(testImg.flatten(), 3, testImg.getWidth(), testImg.getHeight());
+
+
+        cv::Mat ioFrame = updatedFrame.clone();
         ContourFilter cf(ioFrame);
         cf.edit(grayGaussian);
 
