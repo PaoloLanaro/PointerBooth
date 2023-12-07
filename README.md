@@ -38,3 +38,5 @@ This program requires [OpenCV](https://opencv.org/), [JSON for Modern C++](https
    - "pixelsort" - Vertically sort pixels lexicographically descending
    - "greyscale" - Convert image to greyscale
  - Run the program! The camera feed will open automatically and your filters will be applied.
+   - Exit the camera feed with "ESC"
+   - Saved configurations will not appear until camera is closed.
