@@ -119,6 +119,19 @@ imgLib\fast:
 .PHONY : imgLib\fast
 
 #=============================================================================
+# Target rules for targets named jsonLib
+
+# Build rule for target.
+jsonLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) jsonLib
+.PHONY : jsonLib
+
+# fast build rule for target.
+jsonLib\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\jsonLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jsonLib.dir\build
+.PHONY : jsonLib\fast
+
+#=============================================================================
 # Target rules for targets named FinalProject
 
 # Build rule for target.
@@ -202,6 +215,33 @@ lib\src\Editor.s: lib\src\Editor.cpp.s
 lib\src\Editor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Editor.cpp.s
 .PHONY : lib\src\Editor.cpp.s
+
+lib\src\FilterPackManager.obj: lib\src\FilterPackManager.cpp.obj
+.PHONY : lib\src\FilterPackManager.obj
+
+# target to build an object file
+lib\src\FilterPackManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\jsonLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jsonLib.dir\lib\src\FilterPackManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\FilterPackManager.cpp.obj
+.PHONY : lib\src\FilterPackManager.cpp.obj
+
+lib\src\FilterPackManager.i: lib\src\FilterPackManager.cpp.i
+.PHONY : lib\src\FilterPackManager.i
+
+# target to preprocess a source file
+lib\src\FilterPackManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\jsonLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jsonLib.dir\lib\src\FilterPackManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\FilterPackManager.cpp.i
+.PHONY : lib\src\FilterPackManager.cpp.i
+
+lib\src\FilterPackManager.s: lib\src\FilterPackManager.cpp.s
+.PHONY : lib\src\FilterPackManager.s
+
+# target to generate assembly for a file
+lib\src\FilterPackManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\jsonLib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jsonLib.dir\lib\src\FilterPackManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\FilterPackManager.cpp.s
+.PHONY : lib\src\FilterPackManager.cpp.s
 
 lib\src\GaussianBlurFilter.obj: lib\src\GaussianBlurFilter.cpp.obj
 .PHONY : lib\src\GaussianBlurFilter.obj
@@ -429,6 +469,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... FinalProject
 	@echo ... imgLib
+	@echo ... jsonLib
 	@echo ... driver.obj
 	@echo ... driver.i
 	@echo ... driver.s
@@ -438,6 +479,9 @@ help:
 	@echo ... lib/src/Editor.obj
 	@echo ... lib/src/Editor.i
 	@echo ... lib/src/Editor.s
+	@echo ... lib/src/FilterPackManager.obj
+	@echo ... lib/src/FilterPackManager.i
+	@echo ... lib/src/FilterPackManager.s
 	@echo ... lib/src/GaussianBlurFilter.obj
 	@echo ... lib/src/GaussianBlurFilter.i
 	@echo ... lib/src/GaussianBlurFilter.s

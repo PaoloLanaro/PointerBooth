@@ -430,6 +430,14 @@ Pixel Image::calcAvgRGBFromArea(int x0, int y0, int x1, int y1) {
     return Pixel(rVal / count, gVal / count, bVal / count);
 }
 
+/**
+ * Constructor for provided data
+ *
+ * @param data data of image
+ * @param height height in pixels
+ * @param width width in pixels
+ * @param numComponents number of components
+ */
 Image::Image(unsigned char* data, int height, int width, int numComponents) : height(height), width(width), numComponents(numComponents) {
     setupData(data);
 }

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FinalProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FinalProject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FinalProject-Debug-34a07fab61d4c08e94c7.json",
+					"name" : "FinalProject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imgLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imgLib-Debug-32110ca73bda2772835d.json",
+					"name" : "imgLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jsonLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jsonLib-Debug-7dfa424113d5ea943013.json",
+					"name" : "jsonLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio",
+		"source" : "C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

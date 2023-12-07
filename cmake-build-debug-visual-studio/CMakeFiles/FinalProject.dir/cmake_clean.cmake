@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FinalProject.dir/lib/src/ContourFilter.cpp.obj.d"
   "CMakeFiles/FinalProject.dir/lib/src/Editor.cpp.obj"
   "CMakeFiles/FinalProject.dir/lib/src/Editor.cpp.obj.d"
+  "CMakeFiles/FinalProject.dir/lib/src/FilterPackManager.cpp.obj"
+  "CMakeFiles/FinalProject.dir/lib/src/FilterPackManager.cpp.obj.d"
   "CMakeFiles/FinalProject.dir/lib/src/GaussianBlurFilter.cpp.obj"
   "CMakeFiles/FinalProject.dir/lib/src/GaussianBlurFilter.cpp.obj.d"
   "CMakeFiles/FinalProject.dir/lib/src/GrayScaleFilter.cpp.obj"

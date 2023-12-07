@@ -24,13 +24,8 @@
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add option="-DWXUSINGDLL"/>
-					<Add option="-DUNICODE"/>
-					<Add option="-D_UNICODE"/>
 					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include"/>
 					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/stb"/>
-					<Add directory="C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/mswu"/>
-					<Add directory="C:/wxWidgets-3.2.4/include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
@@ -53,13 +48,8 @@
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add option="-DWXUSINGDLL"/>
-					<Add option="-DUNICODE"/>
-					<Add option="-D_UNICODE"/>
 					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include"/>
 					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/stb"/>
-					<Add directory="C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/mswu"/>
-					<Add directory="C:/wxWidgets-3.2.4/include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
@@ -75,6 +65,54 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="jsonLib">
+				<Option output="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio/jsonLib.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include"/>
+					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/nlohmann"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 jsonLib"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsonLib/fast">
+				<Option output="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio/jsonLib.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include"/>
+					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/nlohmann"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 jsonLib/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dbusn\OneDrive\Documents\GitHub\FinalProjectCS3520\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="FinalProject">
 				<Option output="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio/FinalProject.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/cmake-build-debug-visual-studio"/>
@@ -82,12 +120,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add option="-DWXUSINGDLL"/>
-					<Add option="-DUNICODE"/>
-					<Add option="-D_UNICODE"/>
 					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include"/>
-					<Add directory="C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/mswu"/>
-					<Add directory="C:/wxWidgets-3.2.4/include"/>
 					<Add directory="C:/tools/opencv/build/include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -111,12 +144,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add option="-DWXUSINGDLL"/>
-					<Add option="-DUNICODE"/>
-					<Add option="-D_UNICODE"/>
 					<Add directory="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/include"/>
-					<Add directory="C:/wxWidgets-3.2.4/lib/vc14x_x64_dll/mswu"/>
-					<Add directory="C:/wxWidgets-3.2.4/include"/>
 					<Add directory="C:/tools/opencv/build/include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -200,6 +228,10 @@
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/Editor.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/FilterPackManager.cpp">
+			<Option target="jsonLib"/>
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/dbusn/OneDrive/Documents/GitHub/FinalProjectCS3520/lib/src/GaussianBlurFilter.cpp">

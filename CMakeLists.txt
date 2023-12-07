@@ -6,16 +6,23 @@ set(ENV{OPENCV_DIR} "C:\\tools\\opencv\\build")
 set(ENV{wxWidgets_ROOT_DIR} "C:\\wxWidgets-3.2.4\\")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
-# create a statically linked library named libimgLib
+# create a statically linked library named imgLib
 add_library(imgLib
         lib/src/Pixel.cpp
 )
 
+add_library(jsonLib
+        lib/src/FilterPackManager.cpp
+)
+
+
 find_package( OpenCV REQUIRED )
-find_package( wxWidgets REQUIRED COMPONENTS core base )
+#find_package( wxWidgets REQUIRED COMPONENTS core base )
+
 include_directories( ${Open_CV_INCLUDE_DIRS} )
-include(${wxWidgets_USE_FILE})
+
 target_include_directories(imgLib PRIVATE lib/include lib/stb)
+target_include_directories(jsonLib PRIVATE lib/include lib/nlohmann)
 
 # include lib/src/.cpp files here
 # add_library(project5 todo
@@ -25,7 +32,6 @@ target_include_directories(imgLib PRIVATE lib/include lib/stb)
 add_executable(${CMAKE_PROJECT_NAME} driver.cpp
         lib/include/filters/GlitchFilter.h
         lib/include/filters/PixelSortFilter.h
-        lib/include/Filter.h
         lib/include/filters/GrayScaleFilter.h
         lib/src/GrayScaleFilter.cpp
         lib/include/filters/GaussianBlurFilter.h
@@ -44,13 +50,11 @@ add_executable(${CMAKE_PROJECT_NAME} driver.cpp
         lib/src/Image.cpp
         lib/include/Editor.h
         lib/src/Editor.cpp
-        lib/include/PointerBoothWindow.h
-        lib/src/PointerBoothWindow.cpp
-        driver.cpp
-        lib/include/PointerBoothWindow.h
         lib/include/Filter.h
+        driver.cpp
         lib/src/VideoEnvironment.cpp
         lib/include/filters/PointillismFilter.h
+        lib/src/FilterPackManager.cpp
         # lib/include/name.h todo
 )
 
@@ -58,7 +62,7 @@ set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE lib/include)
 
-target_link_libraries( ${CMAKE_PROJECT_NAME} ${wxWidgets_LIBRARIES} ${OpenCV_LIBS} imgLib)
+target_link_libraries( ${CMAKE_PROJECT_NAME} ${wxWidgets_LIBRARIES} ${OpenCV_LIBS} imgLib jsonLib)
 
 #set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 #set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
