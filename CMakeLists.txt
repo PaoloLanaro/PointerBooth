@@ -35,6 +35,8 @@ add_executable(${CMAKE_PROJECT_NAME} driver.cpp
         lib/src/OtsuThresholdingFilter.cpp
         lib/include/ContourFilter.h
         lib/src/ContourFilter.cpp
+        lib/include/MatAdapter.h
+        lib/src/MatAdapter.cpp
         # lib/include/name.h todo
 )
 

@@ -142,29 +142,173 @@ driver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\driver.cpp.s
 .PHONY : driver.cpp.s
 
-lib\include\Filter.obj: lib\include\Filter.cpp.obj
-.PHONY : lib\include\Filter.obj
+lib\src\ContourFilter.obj: lib\src\ContourFilter.cpp.obj
+.PHONY : lib\src\ContourFilter.obj
 
 # target to build an object file
-lib\include\Filter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\include\Filter.cpp.obj
-.PHONY : lib\include\Filter.cpp.obj
+lib\src\ContourFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.obj
+.PHONY : lib\src\ContourFilter.cpp.obj
 
-lib\include\Filter.i: lib\include\Filter.cpp.i
-.PHONY : lib\include\Filter.i
+lib\src\ContourFilter.i: lib\src\ContourFilter.cpp.i
+.PHONY : lib\src\ContourFilter.i
 
 # target to preprocess a source file
-lib\include\Filter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\include\Filter.cpp.i
-.PHONY : lib\include\Filter.cpp.i
+lib\src\ContourFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.i
+.PHONY : lib\src\ContourFilter.cpp.i
 
-lib\include\Filter.s: lib\include\Filter.cpp.s
-.PHONY : lib\include\Filter.s
+lib\src\ContourFilter.s: lib\src\ContourFilter.cpp.s
+.PHONY : lib\src\ContourFilter.s
 
 # target to generate assembly for a file
-lib\include\Filter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\include\Filter.cpp.s
-.PHONY : lib\include\Filter.cpp.s
+lib\src\ContourFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\ContourFilter.cpp.s
+.PHONY : lib\src\ContourFilter.cpp.s
+
+lib\src\Filter.obj: lib\src\Filter.cpp.obj
+.PHONY : lib\src\Filter.obj
+
+# target to build an object file
+lib\src\Filter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.obj
+.PHONY : lib\src\Filter.cpp.obj
+
+lib\src\Filter.i: lib\src\Filter.cpp.i
+.PHONY : lib\src\Filter.i
+
+# target to preprocess a source file
+lib\src\Filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.i
+.PHONY : lib\src\Filter.cpp.i
+
+lib\src\Filter.s: lib\src\Filter.cpp.s
+.PHONY : lib\src\Filter.s
+
+# target to generate assembly for a file
+lib\src\Filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\Filter.cpp.s
+.PHONY : lib\src\Filter.cpp.s
+
+lib\src\GaussianBlurFilter.obj: lib\src\GaussianBlurFilter.cpp.obj
+.PHONY : lib\src\GaussianBlurFilter.obj
+
+# target to build an object file
+lib\src\GaussianBlurFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.obj
+.PHONY : lib\src\GaussianBlurFilter.cpp.obj
+
+lib\src\GaussianBlurFilter.i: lib\src\GaussianBlurFilter.cpp.i
+.PHONY : lib\src\GaussianBlurFilter.i
+
+# target to preprocess a source file
+lib\src\GaussianBlurFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.i
+.PHONY : lib\src\GaussianBlurFilter.cpp.i
+
+lib\src\GaussianBlurFilter.s: lib\src\GaussianBlurFilter.cpp.s
+.PHONY : lib\src\GaussianBlurFilter.s
+
+# target to generate assembly for a file
+lib\src\GaussianBlurFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\GaussianBlurFilter.cpp.s
+.PHONY : lib\src\GaussianBlurFilter.cpp.s
+
+lib\src\GrayScaleFilter.obj: lib\src\GrayScaleFilter.cpp.obj
+.PHONY : lib\src\GrayScaleFilter.obj
+
+# target to build an object file
+lib\src\GrayScaleFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.obj
+.PHONY : lib\src\GrayScaleFilter.cpp.obj
+
+lib\src\GrayScaleFilter.i: lib\src\GrayScaleFilter.cpp.i
+.PHONY : lib\src\GrayScaleFilter.i
+
+# target to preprocess a source file
+lib\src\GrayScaleFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.i
+.PHONY : lib\src\GrayScaleFilter.cpp.i
+
+lib\src\GrayScaleFilter.s: lib\src\GrayScaleFilter.cpp.s
+.PHONY : lib\src\GrayScaleFilter.s
+
+# target to generate assembly for a file
+lib\src\GrayScaleFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\GrayScaleFilter.cpp.s
+.PHONY : lib\src\GrayScaleFilter.cpp.s
+
+lib\src\MatAdapter.obj: lib\src\MatAdapter.cpp.obj
+.PHONY : lib\src\MatAdapter.obj
+
+# target to build an object file
+lib\src\MatAdapter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.obj
+.PHONY : lib\src\MatAdapter.cpp.obj
+
+lib\src\MatAdapter.i: lib\src\MatAdapter.cpp.i
+.PHONY : lib\src\MatAdapter.i
+
+# target to preprocess a source file
+lib\src\MatAdapter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.i
+.PHONY : lib\src\MatAdapter.cpp.i
+
+lib\src\MatAdapter.s: lib\src\MatAdapter.cpp.s
+.PHONY : lib\src\MatAdapter.s
+
+# target to generate assembly for a file
+lib\src\MatAdapter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\MatAdapter.cpp.s
+.PHONY : lib\src\MatAdapter.cpp.s
+
+lib\src\OtsuThresholdingFilter.obj: lib\src\OtsuThresholdingFilter.cpp.obj
+.PHONY : lib\src\OtsuThresholdingFilter.obj
+
+# target to build an object file
+lib\src\OtsuThresholdingFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.obj
+.PHONY : lib\src\OtsuThresholdingFilter.cpp.obj
+
+lib\src\OtsuThresholdingFilter.i: lib\src\OtsuThresholdingFilter.cpp.i
+.PHONY : lib\src\OtsuThresholdingFilter.i
+
+# target to preprocess a source file
+lib\src\OtsuThresholdingFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.i
+.PHONY : lib\src\OtsuThresholdingFilter.cpp.i
+
+lib\src\OtsuThresholdingFilter.s: lib\src\OtsuThresholdingFilter.cpp.s
+.PHONY : lib\src\OtsuThresholdingFilter.s
+
+# target to generate assembly for a file
+lib\src\OtsuThresholdingFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\OtsuThresholdingFilter.cpp.s
+.PHONY : lib\src\OtsuThresholdingFilter.cpp.s
+
+lib\src\SimpleBlurFilter.obj: lib\src\SimpleBlurFilter.cpp.obj
+.PHONY : lib\src\SimpleBlurFilter.obj
+
+# target to build an object file
+lib\src\SimpleBlurFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.obj
+.PHONY : lib\src\SimpleBlurFilter.cpp.obj
+
+lib\src\SimpleBlurFilter.i: lib\src\SimpleBlurFilter.cpp.i
+.PHONY : lib\src\SimpleBlurFilter.i
+
+# target to preprocess a source file
+lib\src\SimpleBlurFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.i
+.PHONY : lib\src\SimpleBlurFilter.cpp.i
+
+lib\src\SimpleBlurFilter.s: lib\src\SimpleBlurFilter.cpp.s
+.PHONY : lib\src\SimpleBlurFilter.s
+
+# target to generate assembly for a file
+lib\src\SimpleBlurFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FinalProject.dir\lib\src\SimpleBlurFilter.cpp.s
+.PHONY : lib\src\SimpleBlurFilter.cpp.s
 
 # Help Target
 help:
@@ -178,9 +322,27 @@ help:
 	@echo ... driver.obj
 	@echo ... driver.i
 	@echo ... driver.s
-	@echo ... lib/include/Filter.obj
-	@echo ... lib/include/Filter.i
-	@echo ... lib/include/Filter.s
+	@echo ... lib/src/ContourFilter.obj
+	@echo ... lib/src/ContourFilter.i
+	@echo ... lib/src/ContourFilter.s
+	@echo ... lib/src/Filter.obj
+	@echo ... lib/src/Filter.i
+	@echo ... lib/src/Filter.s
+	@echo ... lib/src/GaussianBlurFilter.obj
+	@echo ... lib/src/GaussianBlurFilter.i
+	@echo ... lib/src/GaussianBlurFilter.s
+	@echo ... lib/src/GrayScaleFilter.obj
+	@echo ... lib/src/GrayScaleFilter.i
+	@echo ... lib/src/GrayScaleFilter.s
+	@echo ... lib/src/MatAdapter.obj
+	@echo ... lib/src/MatAdapter.i
+	@echo ... lib/src/MatAdapter.s
+	@echo ... lib/src/OtsuThresholdingFilter.obj
+	@echo ... lib/src/OtsuThresholdingFilter.i
+	@echo ... lib/src/OtsuThresholdingFilter.s
+	@echo ... lib/src/SimpleBlurFilter.obj
+	@echo ... lib/src/SimpleBlurFilter.i
+	@echo ... lib/src/SimpleBlurFilter.s
 .PHONY : help
 
 
