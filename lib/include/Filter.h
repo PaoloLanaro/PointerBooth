@@ -10,7 +10,8 @@
 typedef cv::Point3_<uint8_t> Pixel;
 
 class Filter {
-    virtual void Edit(cv::Mat* frame) = 0;
+public:
+    virtual void edit(cv::Mat &frame) = 0;
 };
 
 

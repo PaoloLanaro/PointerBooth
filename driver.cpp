@@ -14,6 +14,14 @@ using std::cout, std::endl;
 #include <opencv2/highgui.hpp>
 #include <GlitchFilter.h>
 #include <opencv2/video.hpp>
+#include "GrayScaleFilter.h"
+#include "SimpleBlurFilter.h"
+#include "GaussianBlurFilter.h"
+#include "OtsuThresholdingFilter.h"
+#include "ContourFilter.h"
+
+using namespace std;
+using namespace cv;
 
 typedef cv::Point3_<uint8_t> Pixel;
 
@@ -45,10 +53,38 @@ int videoCapture() {
         return -1;
     }
 
-    cv::Mat frame, frameOut;
+    cv::Mat currFrame;
 
     while(true) {
-        videoCam >> frame;
+        videoCam >> currFrame;
+        cv::imshow("Initial Frame", currFrame); // original image
+
+        cv::Mat grayFrame = currFrame.clone();
+        GrayScaleFilter gsf;
+        gsf.edit(grayFrame);
+
+        cv::imshow("Gray frame", grayFrame);
+
+        cv::Mat blurredFrame = currFrame.clone();
+        SimpleBlurFilter sbf;
+        sbf.edit(blurredFrame);
+
+        cv::imshow("Simple Blurred Frame", blurredFrame);
+
+        cv::Mat gaussBlurFrame = currFrame.clone();
+        GaussianBlurFilter gbf;
+        gbf.edit(gaussBlurFrame);
+
+        cv::imshow("Gaussian Blurred Frame", gaussBlurFrame);
+
+        // combines gray and simple blur filters
+        cv::Mat grayGaussian = grayFrame.clone();
+        sbf.edit(grayGaussian);
+
+        OtsuThresholdingFilter otf;
+        otf.edit(grayGaussian);
+
+        cv::imshow("simple otsu thresholding (binarization) ", grayGaussian);
 
         //some sort of polymorphism for filters here
         //they can be stacked too-- maybe some sort of command for them
@@ -58,16 +94,15 @@ int videoCapture() {
         PixelSortFilter psf;
         ScrambleFilter sf;
 
-//        gf.Edit(&frame);
-        psf.Edit(&frame);
-//        sf.Edit(&frame);
+//        gf.edit(&currFrame);
+//        psf.edit(&currFrame);
+//        sf.edit(&currFrame);
 
+        cv::Mat ioFrame = currFrame.clone();
+        ContourFilter cf(ioFrame);
+        cf.edit(grayGaussian);
 
-
-
-        frameOut = frame.clone();
-
-        cv::imshow("firstFrame", frameOut);
+        cv::imshow("final", ioFrame);
 
         int key = cv::waitKey(1);
         if (key == 27) {        // esc key

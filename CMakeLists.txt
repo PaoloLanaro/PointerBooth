@@ -22,9 +22,19 @@ file(COPY test_images/ DESTINATION ./test_images)
 add_executable(${CMAKE_PROJECT_NAME} driver.cpp
         lib/include/GlitchFilter.h
         lib/include/PixelSortFilter.h
-        lib/include/Filter.cpp
+        lib/src/Filter.cpp
         lib/include/Filter.h
         lib/include/ScrambleFilter.h
+        lib/include/GrayScaleFilter.h
+        lib/src/GrayScaleFilter.cpp
+        lib/include/GaussianBlurFilter.h
+        lib/include/SimpleBlurFilter.h
+        lib/src/GaussianBlurFilter.cpp
+        lib/src/SimpleBlurFilter.cpp
+        lib/include/OtsuThresholdingFilter.h
+        lib/src/OtsuThresholdingFilter.cpp
+        lib/include/ContourFilter.h
+        lib/src/ContourFilter.cpp
         # lib/include/name.h todo
 )
 
