@@ -1,4 +1,4 @@
-# [Pointer Booth](https://github.com/PaoloLanaro/PointerBooth) ![app-logo](https://i.ibb.co/GQzSQXv/Pointer-Booth-Logo.png)
+# [Pointer Booth](https://github.com/PaoloLanaro/PointerBooth) 
  by [David Busnel](https://github.com/dbusnel) and [Paolo Lanaro](https://github.com/paololanaro) 
 
 A [Photo booth](https://en.wikipedia.org/wiki/Photo_Booth) style application made in C++.
@@ -8,6 +8,8 @@ allows the user to choose through a set of these filters in different orders.
 It contains compatibility of STBI image filters to OpenCV matrix image formats. This allows effects like "Pointillism" implemented on STBI data to be implemented in OpenCV video.
 
 The user can save different combinations of filters through the JSON file serialization of filter containers.
+
+![app-logo](https://i.ibb.co/GQzSQXv/Pointer-Booth-Logo.png)
 
 ## Dependencies
 
