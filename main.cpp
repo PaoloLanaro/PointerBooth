@@ -1,11 +1,5 @@
 #include <iostream>
 
-using std::cout, std::endl;
-
-#pragma ide diagnostic ignored "EndlessLoop"
-#include <opencv2/highgui/highgui.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
-#include <opencv2/core/utility.hpp>
 #include <opencv2\opencv.hpp>
 #include <opencv2\imgcodecs.hpp>
 #include <opencv2/videoio.hpp>
@@ -13,7 +7,6 @@ using std::cout, std::endl;
 #include "ScrambleFilter.h"
 #include <opencv2/highgui.hpp>
 #include <GlitchFilter.h>
-#include <opencv2/video.hpp>
 #include "GrayScaleFilter.h"
 #include "SimpleBlurFilter.h"
 #include "GaussianBlurFilter.h"
@@ -22,13 +15,7 @@ using std::cout, std::endl;
 #include "MatAdapter.h"
 #include "Image.h"
 
-#include <wx/wxprec.h>
-#ifndef WX_PRECOMP
-#include <wx/wx.h>
-#endif
-
-using namespace std;
-using namespace cv;
+using std::cout, std::endl, cv::Mat;
 
 int videoCapture();
 
@@ -43,9 +30,10 @@ int main() {
 }
 
 void imageTest() {
-    cv::Mat img = cv::imread("../test_images/finger-up.jpg");
+    Mat img = cv::imread("../test_images/finger-up.jpg");
     MatAdapter test;
     Image testImg(test.convertToStbiArray(img, 3), 3, img.rows, img.cols / 3);
+
     while (true) {
         int key = cv::waitKey(1);
         if (key == 27) {        // esc key
@@ -65,34 +53,38 @@ int videoCapture() {
         return -1;
     }
 
-    cv::Mat currFrame;
+    Mat currFrame;
 
     while(true) {
         videoCam >> currFrame;
         cv::imshow("Initial Frame", currFrame); // original image
 
-        cv::Mat grayFrame = currFrame.clone();
+        // greyscale filter
+        Mat grayFrame = currFrame.clone();
         GrayScaleFilter gsf;
         gsf.edit(grayFrame);
 
         cv::imshow("Gray frame", grayFrame);
 
-        cv::Mat blurredFrame = currFrame.clone();
+        // simple blur
+        Mat blurredFrame = currFrame.clone();
         SimpleBlurFilter sbf;
         sbf.edit(blurredFrame);
 
         cv::imshow("Simple Blurred Frame", blurredFrame);
 
-        cv::Mat gaussBlurFrame = currFrame.clone();
+        // gaussian blur
+        Mat gaussBlurFrame = currFrame.clone();
         GaussianBlurFilter gbf;
         gbf.edit(gaussBlurFrame);
 
         cv::imshow("Gaussian Blurred Frame", gaussBlurFrame);
 
         // combines gray and simple blur filters
-        cv::Mat grayGaussian = grayFrame.clone();
+        Mat grayGaussian = grayFrame.clone();
         sbf.edit(grayGaussian);
 
+        // thresholding for pre contouring REQUIRED TO CONTOUR
         OtsuThresholdingFilter otf;
         otf.edit(grayGaussian);
 
@@ -110,7 +102,8 @@ int videoCapture() {
 //        psf.edit(&currFrame);
 //        sf.edit(&currFrame);
 
-        cv::Mat ioFrame = currFrame.clone();
+        // contour filter
+        Mat ioFrame = currFrame.clone();
         ContourFilter cf(ioFrame);
         cf.edit(grayGaussian);
 
@@ -123,3 +116,25 @@ int videoCapture() {
     }
     return 0;
 }
+
+
+// Todo: wxWidgets
+//#include "PointerBoothWindow.h"
+//
+//#include <wx/wxprec.h>
+//#ifndef WX_PRECOMP
+//#include <wx/wx.h>
+//#endif
+//
+//class PointerBoothApp: public wxApp {
+//public:
+//    virtual bool OnInit();
+//};
+//
+//wxIMPLEMENT_APP(PointerBoothApp);
+//bool PointerBoothApp::OnInit()
+//{
+//    auto *frame = new PointerBoothWindow("Pointer Booth!", wxPoint(250, 250), wxSize(500, 500));
+//    frame->Show(true);
+//    return true;
+//}

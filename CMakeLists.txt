@@ -23,7 +23,7 @@ target_include_directories(imgLib PRIVATE lib/include lib/stb)
 # ) todo
 
 
-add_executable(${CMAKE_PROJECT_NAME} driver.cpp
+add_executable(${CMAKE_PROJECT_NAME} main.cpp
         lib/include/GlitchFilter.h
         lib/include/PixelSortFilter.h
         lib/src/Filter.cpp
@@ -47,6 +47,8 @@ add_executable(${CMAKE_PROJECT_NAME} driver.cpp
         lib/src/Image.cpp
         lib/include/Editor.h
         lib/src/Editor.cpp
+        lib/include/PointerBoothWindow.h
+        lib/src/PointerBoothWindow.cpp
         # lib/include/name.h todo
 )
 
