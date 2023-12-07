@@ -41,7 +41,7 @@ int main() {
 void imageTest() {
     cv::Mat img = cv::imread("../test_images/finger-up.jpg");
     MatAdapter test;
-    cv::imgshow("test", img);
+    cv::imshow("test", img);
 }
 
 int videoCapture() {
