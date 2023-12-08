@@ -4,11 +4,11 @@
 by [David Busnel](https://github.com/dbusnel) and [Paolo Lanaro](https://github.com/paololanaro) 
 
 A [Photo booth](https://en.wikipedia.org/wiki/Photo_Booth) style application made in C++.
-It is capable of displaying multiple filters through a live camera feed and
+It is capable of displaying multiple filters through a live camera feed, and
 allows the user to choose through a set of these filters in different orders.
 
 It contains compatibility of STBI image array formats to OpenCV matrix image formats. 
-This allows effects like Pointillism (implemented in STBI) functionality to be implemented in OpenCV video.
+This allows effects like Pointillism functionality, implemented in STBI, to be implemented in OpenCV video.
 
 The user can save different combinations of filters through the JSON file serialization of filter containers.
 
@@ -16,11 +16,12 @@ The user can save different combinations of filters through the JSON file serial
 
 This program requires [OpenCV](https://opencv.org/), [JSON for Modern C++](https://github.com/nlohmann/json), and the [STBI image library](https://github.com/nothings/stb) to function.
 
-*OpenCV* is used for its camera capture and video capabilities, *JSON for Modern C++* is used to read and write filter
-configurations, and the STBI library is used for image (and more specifically pixel) manipulation.
+- *OpenCV* for its camera capture and video capabilities.
+- *JSON for Modern C++* to read and write filter configurations.
+- *STBI library* for image (and more specifically pixel) manipulation.
 
 ## Build
- - Ensure all required libraries are installed
+ - Ensure all required libraries are installed.
 
 ## Usage
 #### COMMAND LINE MODE
